@@ -1,0 +1,4 @@
+\contentsline {title}{Image Information Retrieval}{1}%
+\authcount {1}
+\contentsline {author}{Ivar Ekeland, Roger Temam, Jeffrey Dean, David Grove, Craig Chambers, Kim B. Bruce, and Elisa Bertino}{1}%
+\contentsline {section}{\numberline {1}}{1}%
