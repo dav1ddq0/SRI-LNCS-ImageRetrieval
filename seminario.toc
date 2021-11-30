@@ -1,4 +1,5 @@
-\contentsline {title}{Image Information Retrieval}{1}%
+\contentsline {title}{Principales m\'etodos de Image Information Retrieval}{2}%
 \authcount {1}
-\contentsline {author}{Ivar Ekeland, Roger Temam, Jeffrey Dean, David Grove, Craig Chambers, Kim B. Bruce, and Elisa Bertino}{1}%
-\contentsline {section}{\numberline {1}}{1}%
+\contentsline {author}{Ivar Ekeland, Roger Temam, Jeffrey Dean, David Grove, Craig Chambers, Kim B. Bruce, and Elisa Bertino}{2}%
+\contentsline {section}{\numberline {1}Keyword Based Image retrieval:}{2}%
+\contentsline {subsection}{\numberline {1.1}Text Based Image Retrieval:}{2}%

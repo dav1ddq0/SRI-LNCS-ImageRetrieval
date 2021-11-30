@@ -17,9 +17,9 @@ En este documento se intenta abordar sobre la recucuperación de información ba
 %
 \mainmatter              % start of the contributions
 %
-\title{Image Information Retrieval}
+\title{Principales m\'etodos de Image Information Retrieval}
 %
-\titlerunning{Hamiltonian Mechanics}  % abbreviated title (for running head)
+\titlerunning{}  % abbreviated title (for running head)
 %                                     also used for the TOC unless
 %                                     \toctitle is used
 %
@@ -36,19 +36,42 @@ Elsa Bertino}
 \tocauthor{Ivar Ekeland, Roger Temam, Jeffrey Dean, David Grove,
 Craig Chambers, Kim B. Bruce, and Elisa Bertino}
 %
-\institute{Universidad de La Habana\\
+\institute{MATCOM, Universidad de La Habana,\\
 \email{d.quesada2@estudiantes.matcom.uh.cu, j.dominguez@estudiantes.matcom.uh.cu},\\
 \texttt{}
 }
+\begin{abstract}
+    \dots
+   \keywords{}
+   \end{abstract}
+
 
 \maketitle
 
-\begin{abstract}
-     \dots
-    \keywords{image information retrieval}
-    \end{abstract}
+\section{Keyword Based Image retrieval:}
 
-\section{}
+En un \textbf{image retrieval system convencional}, los \textbf{keywords} son 
+usados como descriptores para indexar y recuperar una imagen.  Las palabras 
+claves (key words) no transmiten mejor que el contenido de una imagen 
+el significado de esta. Antes de que las imágenes sean almacenadas en la base de datos, son examinadas 
+manualmente y se les asigna una palabra  clave (\textbf{keyword}) para describir su 
+contenido. Estos  keywords  son almacenados como parte de los atributos 
+asociados a la imagen. En el proceso de hacer una consulta, el sistema 
+aceptará del usuario una o varias \textbf{keywords} que serán el criterio de búsqueda.
+Luego se realiza un proceso para encontrar las imágenes que cumplen con el criterio 
+de búsqueda. Las t\'ecnicas de text based image retrieval usa texto para describir el 
+contenido de una imagen lo que a menudo crea ambig$\ddot{u}$edad e insuficiencia en el 
+procesamiento de la query y el rendimiento en una b\'usqueda de la base de datos de 
+im\'agenes. El proceso de asignaci\'on de meta datos con captions o keywords a una imagen
+digital es conocido como anotaci\'on autom\'atica de im\'agenes(automatic image anotation).
+Este tipo de text based informacion retrieval est\'a motivado l\'exicamente en lugar de 
+conceptualmente, lo que lleva a resultados de b\'usqueda irrelevantes en la recuperaci\'on en la 
+recuperaci\'on de informaci\'on.
+
+\subsection{Text Based Image Retrieval:}
+
+Las t\'ecnicas b\'asicas de recuperaci\'on de documentos pueden ser usadas para la recuperaci\'on
+de im\'agenes basadas en metadatos sin modificaci\'on. 
 \newpage
 
 \end{document}
