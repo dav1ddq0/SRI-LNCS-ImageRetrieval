@@ -18,9 +18,6 @@
 %                                     also used for the TOC unless
 %                                     \toctitle is used
 %
-\author{Ivar Ekeland\inst{1} \and Roger Temam\inst{2}
-Jeffrey Dean \and David Grove \and Craig Chambers \and Kim~B.~Bruce \and
-Elsa Bertino}
 
 %
 \author{David Orlando De Quesada Oliva, Javier Dom\'inguez}
@@ -28,8 +25,7 @@ Elsa Bertino}
 \authorrunning{Ivar Ekeland et al.} % abbreviated author list (for running head)
 %
 %%%% list of authors for the TOC (use if author list has to be modified)
-\tocauthor{Ivar Ekeland, Roger Temam, Jeffrey Dean, David Grove,
-Craig Chambers, Kim B. Bruce, and Elisa Bertino}
+
 %
 \institute{MATCOM, Universidad de La Habana,\\
 \email{d.quesada2@estudiantes.matcom.uh.cu, j.dominguez@estudiantes.matcom.uh.cu},\\
@@ -97,7 +93,15 @@ percibir la imagen en si. En el contexto actual de la recuperaci\'on, el texto p
 responde de manera similar al texto plano en documentos, debido a que ambos contienen texto, lo cual permite
 que sean explotados por las t\'ecnicas convencionales de text-bases information retrieval. La recuperaci\'on de
 informaci\'on basada en texto gen\'erica se realiza de tal manera que inicialmente el usuario reliza una
-consulta(query) que tiene de 1 a m \textbf{keywords}. 
+consulta(query) que tiene de 1 a m \textbf{keywords}. En los sistemas de recuperaci\'on basados en 
+metadatos(metadata based information retrieval), el buscador compara los keywords con un conjunto de im\'agenes 
+recopiladas de una base de datos y les da prioriad a los valores. Por ejemplo, si el keyword es \textbf{book}, y la 
+imagen A contiene 2 ocurrencias de book y la imagen B solo una ocurrencia, entonces A tiene una prioridad mayor.  Las 
+im\'agenes con palabras claves anotadas son mostradas al usuarios en el orden de reducci\'on de la prioridad. Im\'agenes 
+irrelevantes son recuperadas y el usuario tiene que gastar tiempo en el filtrado de la informaci\'on, usualmente navegando
+a trav\'es de los resultados de b\'usqueda. 
+
+\subsection{Field Based Image Retrieval:}
 
 \newpage
 
