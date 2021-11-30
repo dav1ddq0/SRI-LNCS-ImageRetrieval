@@ -7,11 +7,6 @@
 \frontmatter          % for the preliminaries
 %
 
-%
-\chapter*{Preface}
-%
-En este documento se intenta abordar sobre la recucuperación de información basada en imágenes.
-
 
 \tableofcontents
 %
@@ -48,6 +43,28 @@ Craig Chambers, Kim B. Bruce, and Elisa Bertino}
 
 \maketitle
 
+\section{Caracter\'isticas del problema:}
+
+La Recuperación de im\'agenes es el campo que se encarga de buscar y obtener imágenes 
+digitales de una base  de datos. Debido a la cantidad creciente de imágenes digitales 
+alrededor del mundo, desde 1970 este campo ha estado bien activo. Un sistema de 
+recuperación efectivo y rápido de imágenes necesita operar sobre una colección de 
+imágenes y devolver las imágenes relevantes basadas en la consulta, la cual 
+se realiza lo más cercana posible a la percepción humana. Los investigadores de este 
+campo poco a poco, han ido mejorando e implementando varios tipos de sistemas de recuperación 
+de imágenes, de los sistemas basados en \textbf{palabras claves}, pasando por los sistemas 
+basados en el contenido (características) de una imagen, y finalmente llegando a los 
+sistemas de recuperación semánticos, con el objetivo de reducir el vacío semántico que 
+existe entre la representación de características de bajo nivel (color, textura, forma, etc) y 
+la semántica de alto nivel en las imágenes.
+
+Desarrollar un motor de búsqueda de imágenes omnipotente, capaz de satisfacer a todos los usuarios 
+requiere entender y caracterizar la interacción y la búsqueda de imágenes desde el punto de vista 
+del usuario y del sistema. Desde el punto de vista del usuario, claridad en lo que desea, donde lo 
+quiere buscar y de que forma quiere realizar su consulta. Desde el punto de viste del motor de 
+búsqueda, como desea el usuario que le sean presentados los resultados de su consulta, dónde desea 
+buscar el usuario y cual es la naturaleza de la consulta del usuario.
+
 \section{Keyword Based Image retrieval:}
 
 En un \textbf{image retrieval system convencional}, los \textbf{keywords} son 
@@ -71,7 +88,17 @@ recuperaci\'on de informaci\'on.
 \subsection{Text Based Image Retrieval:}
 
 Las t\'ecnicas b\'asicas de recuperaci\'on de documentos pueden ser usadas para la recuperaci\'on
-de im\'agenes basadas en metadatos sin modificaci\'on. 
+de im\'agenes basadas en metadatos sin modificaci\'on. En un keyword based image
+retrieval, los metadatos que describen las im\'agenes pueden ser categorizados en 2
+partes. Una parte se refiere a las herramientas usadas en el proceso de creaci\'on de la imagen, estilo de
+de arte de la imagen, artista, precio, y otras propiedades expl\'icitas de la imagen. La otra parte describe
+lo que realmente hay en la imagen, las propiedades imp\'icitas que pueden entenderse al 
+percibir la imagen en si. En el contexto actual de la recuperaci\'on, el texto plano anotado en im\'agenes
+responde de manera similar al texto plano en documentos, debido a que ambos contienen texto, lo cual permite
+que sean explotados por las t\'ecnicas convencionales de text-bases information retrieval. La recuperaci\'on de
+informaci\'on basada en texto gen\'erica se realiza de tal manera que inicialmente el usuario reliza una
+consulta(query) que tiene de 1 a m \textbf{keywords}. 
+
 \newpage
 
 \end{document}

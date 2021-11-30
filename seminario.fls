@@ -25,12 +25,12 @@ OUTPUT /media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminari
 INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-OUTPUT /media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.pdf
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.toc
 INPUT /media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 OUTPUT /media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.toc
+OUTPUT /media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.pdf
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt9.tfm
