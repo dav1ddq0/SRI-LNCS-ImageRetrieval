@@ -5,3 +5,4 @@
 \contentsline {section}{\numberline {2}Keyword Based Image retrieval:}{2}%
 \contentsline {subsection}{\numberline {2.1}Text Based Image Retrieval:}{3}%
 \contentsline {subsection}{\numberline {2.2}Field Based Image Retrieval:}{3}%
+\contentsline {subsection}{\numberline {2.3}Structure Based Image Retrieval:}{4}%
