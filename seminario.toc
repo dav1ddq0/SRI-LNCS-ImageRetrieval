@@ -1,8 +1,13 @@
-\contentsline {title}{Principales m\'etodos de Image Information Retrieval}{2}%
+\contentsline {title}{Caracter\'isticas del problema}{2}%
 \authcount {1}
 \contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{2}%
-\contentsline {section}{\numberline {1}Caracter\'isticas del problema:}{2}%
-\contentsline {section}{\numberline {2}Keyword Based Image retrieval:}{2}%
-\contentsline {subsection}{\numberline {2.1}Text Based Image Retrieval:}{3}%
-\contentsline {subsection}{\numberline {2.2}Field Based Image Retrieval:}{3}%
-\contentsline {subsection}{\numberline {2.3}Structure Based Image Retrieval:}{4}%
+\contentsline {title}{Principales m\'etodos para la recuperaci\'on de im\'agenes}{3}%
+\authcount {1}
+\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{3}%
+\contentsline {subsection}{\numberline {0.1}Text Based Image Retrieval:}{3}%
+\contentsline {subsection}{\numberline {0.2}Field Based Image Retrieval:}{4}%
+\contentsline {subsection}{\numberline {0.3}Structure Based Image Retrieval:}{4}%
+\contentsline {section}{\numberline {1}Content Based Image Retrieval(CBIR):}{4}%
+\contentsline {title}{Evaluación del sistema}{6}%
+\authcount {1}
+\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{6}%

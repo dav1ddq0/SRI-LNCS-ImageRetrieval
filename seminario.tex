@@ -1,23 +1,35 @@
 \documentclass{llncs}
 
 \usepackage{makeidx}  
-
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage{graphicx}
 \begin{document}
 
-\frontmatter          % for the preliminaries
+         % for the preliminaries
 %
 
 
 \tableofcontents
 %
-\mainmatter              % start of the contributions
+
+  
+          % start of the contributions
+
 %
-\title{Principales m\'etodos de Image Information Retrieval}
+\title{Caracter\'isticas del problema}
 %
 \titlerunning{}  % abbreviated title (for running head)
 %                                     also used for the TOC unless
 %                                     \toctitle is used
 %
+\begin{abstract}
+    \dots
+   \keywords{}
+   \end{abstract}
+
 
 %
 \author{David Orlando De Quesada Oliva, Javier Dom\'inguez}
@@ -31,15 +43,10 @@
 \email{d.quesada2@estudiantes.matcom.uh.cu, j.dominguez@estudiantes.matcom.uh.cu},\\
 \texttt{}
 }
-\begin{abstract}
-    \dots
-   \keywords{}
-   \end{abstract}
-
 
 \maketitle
 
-\section{Caracter\'isticas del problema:}
+
 
 La Recuperación de im\'agenes es el campo que se encarga de buscar y obtener imágenes 
 digitales de una base  de datos. Debido a la cantidad creciente de imágenes digitales 
@@ -61,7 +68,16 @@ quiere buscar y de que forma quiere realizar su consulta. Desde el punto de vist
 búsqueda, como desea el usuario que le sean presentados los resultados de su consulta, dónde desea 
 buscar el usuario y cual es la naturaleza de la consulta del usuario.
 
-\section{Keyword Based Image retrieval:}
+\newpage
+\title{Principales m\'etodos para la recuperaci\'on de im\'agenes}
+\author{David Orlando De Quesada Oliva, Javier Dom\'inguez}
+\institute{MATCOM, Universidad de La Habana,\\
+\email{d.quesada2@estudiantes.matcom.uh.cu, j.dominguez@estudiantes.matcom.uh.cu},\\
+\texttt{}
+}
+\maketitle
+
+\section*{Keyword Based Image retrieval:}
 
 En un \textbf{image retrieval system convencional}, los \textbf{keywords} son 
 usados como descriptores para indexar y recuperar una imagen.  Las palabras 
@@ -118,6 +134,21 @@ una definici\'on de una parte de un auto puede incluir especificaciones de esos 
 de nuevo usando varios atributos como la forma, el tama\~{n}o y el material. Los elementos pueden incluso tener elementos ellos mismos, por 
 ejemplo, una mesa tiene patas, y sus subelementos pueden moverse hasta el nivel donde un elemento no puede obtener un subelemento m\'as particular.
 
+\section{Content Based Image Retrieval(CBIR):}
+
+El Content Based Image Retrieval(CBIR) es uno de los m\'etodos de visi\'on por computadoras para la recuperaci\'on de
+im\'agenes, lo que significa que para poder recuperar es necesario im\'agenes digitales de una base de datos de im\'agenes. 
+La b\'usqueda basada en contenido(Content based search) realizar\'a el an\'alisis con el contenido real de la imagen, en 
+lugar de metadatos como etiquetas(tags), palabras clave(keywords), o descripciones anotadas con la imagen. La palabra 
+contenido aqu\'i puede referirse a formas, color, texturas o alg\'un otro detalle que se puede obtener dentro de la propia
+imagen. El motor de búsqueda de imágenes relacionadas con la web se basa en metadatos, por lo que genera una gran cantidad 
+de resultados basura. Por lo tanto CBIR es deseable en este caso. D\'andole palabras clave (keywords) de forma manual a las 
+im\'agenes de b\'usqueda en una larga base de datos puede obtener resultados incorrectos. Adem\'as el proceso es costoso y 
+puede que no identifique todas las palabras clave(keywords) que especifican la imagen y, por tanto, es ineficiente. Al 
+proporcionar una buena técnica de indexación basada en el contenido real de las imágenes, se puede recuperar y producir
+resultados precisos.
+
+
 
 
 
@@ -125,5 +156,31 @@ ejemplo, una mesa tiene patas, y sus subelementos pueden moverse hasta el nivel 
 
 
 \newpage
+
+\title{Evaluación del sistema}
+\author{David Orlando De Quesada Oliva, Javier Dom\'inguez}
+\institute{MATCOM, Universidad de La Habana,\\
+\email{d.quesada2@estudiantes.matcom.uh.cu, j.dominguez@estudiantes.matcom.uh.cu},\\
+\texttt{}
+}
+\maketitle
+
+La recuperación de imágenes es esencialmente un problema de recuperación de información. Por tanto, 
+las métricas de evaluación han sido adoptados de forma bastante natural a partir de la investigación de 
+recuperación de información. Dos de las Las medidas de evaluación más populares son:\\
+$\blacksquare$ Precisión: el porcentaje de imágenes recuperadas que son relevantes para la consulta.\\
+$\blacksquare$ Recobrado: el porcentaje de todas las imágenes relevantes en la base de datos de búsqueda que se recuperan.\\
+
+Es importante tener en cuenta que cuando la consulta en cuestión es una imagen, la relevancia es extremadament subjetiva. 
+La investigación sobre recuperación de información ha demostrado que la precisión y el recobrado siguen una relación inversa. 
+La precisión cae mientras que la recobrado aumenta a medida que el número de imágenes recuperadas, a menudo denominadas alcance, 
+aumenta. Por lo tanto, es típico que tengan un valor numérico alto tanto para la precisión como para la recuperación. 
+Tradicionalmente, los resultados se resumen como curvas de recuperación de precisión o curvas de alcance de precisión. 
+Una critica por la precisión se deriva del hecho de que se calcula para todo el conjunto recuperado y esta no se ve afectada 
+por las clasificaciones respectivas de las entidades relevantes en la lista recuperada. Una medida que aborda el problema 
+anterior y es muy popular en la comunidad de recuperación de imágenes, es la precisión media (AP). En una lista clasificada 
+de entidades recuperadas con respecto a una consulta, si la precisión se calcula en la profundidad de cada entidad relevante 
+obtenida, la precisión promedio se da como la media de toda la precisión individual. Como es obvio, esta métrica está muy 
+influenciada por elementos relevantes de alto rango y no tanto por los que se encuentran al final de la lista recuperada.
 
 \end{document}
