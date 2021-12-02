@@ -11,6 +11,6 @@
 \contentsline {subsection}{\numberline {1.1}Low-Level Image Feature:}{5}%
 \contentsline {subsection}{\numberline {1.2} Image Segmentation}{5}%
 \contentsline {subsection}{\numberline {1.3} Varias caracter\'isticas de bajo nivel de las im\'agenes:}{6}%
-\contentsline {title}{Evaluación del sistema}{7}%
+\contentsline {title}{Evaluación del sistema}{8}%
 \authcount {1}
-\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{7}%
+\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{8}%
