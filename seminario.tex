@@ -173,6 +173,30 @@ en la confianza en la necesidad del sistema y el uso del conjunto de datos. Es d
 resultados. El resultado del JSEG es la textura y el color de regiones similares, pero el resultado de KMCC produce objetos que son diferentes.
 El algoritmo KMCC es computacionalmente mucho m\'as exhaustivo que el JSEG. Por tanto, Blobworld y JSEG son principalmente los algoritmos usados.
 
+\subsection{ Varias caracter\'isticas de bajo nivel de las im\'agenes:}
+
+En las diversas categor\'ias de algoritmos muy pocos se pueden aplicar en la recuperaci\'on de im\'agenes en tiempo real con 
+sem\'antica de alto nivel que son:
+$\blacksquare$  \textbf{Caracter\'istica del color:}
+Es la m\'as com\'un de la caracter\'isticas adoptadas en la recuperaci\'on de im\'agenes. Varios espacios de color son usados 
+para definir colores . Esos espacios de color son usados en dependiendo de las diferentes aplicaciones. Los espacios de color 
+m\'as usados son  RGB, LAB, LUV, HSV (HSL), YCrCb, y el hue-min-max-difference (HMMD). La covarianza del color, el histograma 
+de color, y los momentos de color(color moments) son principalmente las caracter\'isticas de color usadas en RBIR(Region Based Image Retrieval).
+ El color principal (leading color), el color escalable(scalable color)y el dise\~{n}o de color(color layout) son las caracter\'isticas 
+de color que se utilizan principalmente en MPEG-7. Con el origen las caracter\'isticas de 3 colores, el par matiz-matiz y matiz
+se construyen las invariantes de color. La sem\'antica de alto nivel no est\'a directamente relacionada con las caracter\'isticas 
+de color mencionadas anteriormente. Para mapear los colores de una regi\'on a nombres de colores en sem\'antica de alto nivel,
+el promedio de color de todos los pixeles  en una regi\'on podr\'ia usarse como su caracter\'istica de color. Si la segmentaci\'on
+es err\'onea terminar\'a porque la regi\'on original es visualmente diferente al color promedio. Dependiendo de los resultados 
+de la segmentaci\'on solo se seleccionan las caracter\'isticas de color. El color promedio no es una opci\'on deseable si la
+segmentaci\'on da como resultado objetos que no tienen colores similares. En la mayor\'ia de los trabajos CBIR, las im\'agenes en color no
+est\'an preprocesadas. Los filtros de color adecuados son esenciales para mejorar la eficiencia de recuperaci\'on debido a que el color 
+en la im\'agenes siempre est\'a da\~{n}ado por el ruido.
+
+
+
+
+
 
 
 
