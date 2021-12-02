@@ -176,9 +176,9 @@ El algoritmo KMCC es computacionalmente mucho m\'as exhaustivo que el JSEG. Por 
 \subsection{ Varias caracter\'isticas de bajo nivel de las im\'agenes:}
 
 En las diversas categor\'ias de algoritmos muy pocos se pueden aplicar en la recuperaci\'on de im\'agenes en tiempo real con 
-sem\'antica de alto nivel que son:
-$\blacksquare$  \textbf{Caracter\'istica del color:}
-Es la m\'as com\'un de la caracter\'isticas adoptadas en la recuperaci\'on de im\'agenes. Varios espacios de color son usados 
+sem\'antica de alto nivel que son:\\
+$\blacksquare$  \textbf{Color:}\\
+El color es la m\'as com\'un de la caracter\'isticas adoptadas en la recuperaci\'on de im\'agenes. Varios espacios de color son usados 
 para definir colores . Esos espacios de color son usados en dependiendo de las diferentes aplicaciones. Los espacios de color 
 m\'as usados son  RGB, LAB, LUV, HSV (HSL), YCrCb, y el hue-min-max-difference (HMMD). La covarianza del color, el histograma 
 de color, y los momentos de color(color moments) son principalmente las caracter\'isticas de color usadas en RBIR(Region Based Image Retrieval).
@@ -191,7 +191,23 @@ es err\'onea terminar\'a porque la regi\'on original es visualmente diferente al
 de la segmentaci\'on solo se seleccionan las caracter\'isticas de color. El color promedio no es una opci\'on deseable si la
 segmentaci\'on da como resultado objetos que no tienen colores similares. En la mayor\'ia de los trabajos CBIR, las im\'agenes en color no
 est\'an preprocesadas. Los filtros de color adecuados son esenciales para mejorar la eficiencia de recuperaci\'on debido a que el color 
-en la im\'agenes siempre est\'a da\~{n}ado por el ruido.
+en la im\'agenes siempre est\'a da\~{n}ado por el ruido.\\
+$\blacksquare$  \textbf{Textura:}
+Pocos sistemas no utilizan la textura como el color en la recuperaci\'on de im\'agenes. La textura es una caracter\'istica importante 
+para describir la sem\'antica de alto nivel en la recuperaci\'on de im\'agenes porque proporciona detalles esenciales en un cat\'alogo 
+de im\'agenes, ya que define el contexto de muchas im\'agenes del mundo real como nubes, ladrillos, \'arboles y telas. El resultado
+de aplicar \textbf{la transformada de Wavelet}    o \textbf{el filtrado de Gabor}, medidas estad\'isticas confinadas asi como las
+seis caracter\'istcas de textura de Samura, son las caracter\'isticas de textura m\'as utilizadas en el proceso de recuperaci\'on de 
+im\'agenenes.  Las caracter\'istica de textura de Samura son:\\
+$\blacktriangleright $ La regularidad\\
+$\blacktriangleright $ Semejanza de l\'inea\\
+$\blacktriangleright $ La rugosidad\\
+$\blacktriangleright $ La direccionalidad\\
+$\blacktriangleright $ El contraste\\
+$\blacktriangleright $ La aspereza\\
+
+De estas caracter\'isticas la aspereza, la direccionalidad y la regularidad son las m\'as importantes. Estas tres est\'an relacionadas 
+con otras que son menos eficaces con respecto a la descripci\'on de la textura. 
 
 
 
