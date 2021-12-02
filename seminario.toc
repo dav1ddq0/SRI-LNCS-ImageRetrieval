@@ -8,6 +8,8 @@
 \contentsline {subsection}{\numberline {0.2}Field Based Image Retrieval:}{4}%
 \contentsline {subsection}{\numberline {0.3}Structure Based Image Retrieval:}{4}%
 \contentsline {section}{\numberline {1}Content Based Image Retrieval(CBIR):}{4}%
-\contentsline {title}{Evaluación del sistema}{6}%
+\contentsline {subsection}{\numberline {1.1}Low-Level Image Feature:}{5}%
+\contentsline {subsection}{\numberline {1.2} Image Segmentation}{5}%
+\contentsline {title}{Evaluación del sistema}{7}%
 \authcount {1}
-\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{6}%
+\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{7}%

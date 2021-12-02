@@ -148,6 +148,31 @@ puede que no identifique todas las palabras clave(keywords) que especifican la i
 proporcionar una buena técnica de indexación basada en el contenido real de las imágenes, se puede recuperar y producir
 resultados precisos.
 
+\subsection{Low-Level Image Feature:}
+
+Para poder realizar el CBIR las caracter\'istics de bajo nivel de la imagen  (low-level image feature) deben ser extra\'idas 
+primero. La extracci\'on de caracter\'isticas puede hacerse en toda la imagen o solo en una regi\'on de inter\'es. La t\'ecnica
+simple usada en la recuperaci\'on de im\'agenes depende de las caracter\'isticas globales. La percepci\'on humana coincide 
+estrechamente con la representaci\'on de im\'agenes a nivel de regi\'on. Para realizar la recuperaci\'on de im\'agenes 
+basada en regiones el paso m\'as importante es la segmentaci\'on de im\'agenes. De la regi\'on segmentada, las caracter\'isticas 
+de bajo nivel como textura, el color, la forma o la ubicaci\'on espacial se pueden extraer f\'acilmente. Basado en las caracter\'isticas
+de la regi\'on, se puede encontrar f\'acilmente la coincidencia entre dos im\'agenes 
+
+\subsection{ Image Segmentation}
+El proceso autom\'atico de la realizaci\'on de la segmentaci\'on de una imagen es una tarea dif\'icil. Las t\'ecnicas acad\'emicas 
+usadas en la segmentaci\'on de im\'agenes son curva de  difusi\'on de energ\'ia(curve energy diffusion), evoluci\'on(evolution) y particionamiento 
+de grafos(graph paritioning). La mayor\'ia de los m\'etodos pueden ser apropiados solo para im\'agenes que tienen regiones con colores
+similares, como los m\'etodos de direct clustering en el espacio de color. Tales m\'etodos pueden adaptarse para la recuperaci\'on de sistemas 
+que funcionen con colores. Pero las escenas naturales contienen tanto colores como texturas. Aplicar segmentaci\'on en texturas resulta 
+dif\'icil. Incluso en la segmentaci\'on basada en texturas la estimaci\'on del par\'ametro del modelo de textura es dif\'icil. Para 
+superar esto el algoritmo 'JSEG' es usado. Otro algoritmo llamado segmentaci\'on Blobworld es ampliamanente utilizado. Algunos algoritmos 
+de segmentaci\'on hacen uso de segmentaci\'on basada en color, en textura o en ambas. Estos algoritmos usan k-means para prop\'ositos de 
+clasificaci\'on. Los bloques de una misma clase se agrupan dentro de una misma regi\'on. El algoritmo k-means con restricci\'on de 
+conectividad (KMCC) es un trabajo de segmentaci\'on para segmentar objetos en las im\'agenes. Esta utilizaci\'on del algoritmo  se basa 
+en la confianza en la necesidad del sistema y el uso del conjunto de datos. Es dif\'icil determinar que algoritmo proporciona mejores 
+resultados. El resultado del JSEG es la textura y el color de regiones similares, pero el resultado de KMCC produce objetos que son diferentes.
+El algoritmo KMCC es computacionalmente mucho m\'as exhaustivo que el JSEG. Por tanto, Blobworld y JSEG son principalmente los algoritmos usados.
+
 
 
 
