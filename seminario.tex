@@ -12,7 +12,16 @@
 
          % for the preliminaries
 %
+\begin{abstract}
+    \dots
+    En este paper se aborda sobre la recuperaci\'on de im\'agenes, una de las ramas de la
+    recuperaci\'on de informaci\'on, sus principales m\'etodos como el basado en keywords
+    (keyword based image retrieval) o el basado en contenido (content based image retrieval),
+    entre otros. Las ventajas y desventajas de estos m\'etodos y que aplicaciones reales tiene 
+    la recuperaci\'on de im\'agenes .
 
+   \keywords{content-based image retrieval, keyword-based image retrieval, image retrieval,}
+\end{abstract}
 
 \tableofcontents
 %
@@ -27,10 +36,7 @@
 %                                     also used for the TOC unless
 %                                     \toctitle is used
 %
-\begin{abstract}
-    \dots
-   \keywords{}
-   \end{abstract}
+
 
 
 %
@@ -69,6 +75,24 @@ del usuario y del sistema. Desde el punto de vista del usuario, claridad en lo q
 quiere buscar y de que forma quiere realizar su consulta. Desde el punto de viste del motor de 
 búsqueda, como desea el usuario que le sean presentados los resultados de su consulta, dónde desea 
 buscar el usuario y cual es la naturaleza de la consulta del usuario.
+
+
+\newpage
+\title{Diferencias entre Image Retrieval y Content-based image retrieval}
+\author{David Orlando De Quesada Oliva, Javier Dom\'inguez}
+\institute{MATCOM, Universidad de La Habana,\\
+\email{d.quesada2@estudiantes.matcom.uh.cu, j.dominguez@estudiantes.matcom.uh.cu},\\
+\texttt{}
+}
+\maketitle
+
+
+La recuperación de imágenes (Image Retrieval) se refiere a la rama de la recuperación de información que se encarga 
+de dada una consulta que puede realizar un usuario de disímiles formas, devolver un ranking de las imágenes que más 
+se asemejen a la consulta hecha por el usuario, teniendo en cuenta alguna medida de similitud. La recuperación de 
+imágenes basada en contenido(Content-based image retrieval) se refiere a un tipo específico de método de recuperación de 
+imágenes que se  caracteriza por usar el contenido de las imágenes (color, forma, textura, etc) para realizar el proceso 
+de consulta.
 
 \newpage
 \title{Principales m\'etodos para la recuperaci\'on de im\'agenes}
@@ -135,7 +159,7 @@ del campo. Regularmente un esquema de metadatos es descrito por un conjunto de c
 valores que puede ser elegidos por un campo  particular. La plantilla (template) de metadatos y esquemas ampliamaneta utilizada para 
 describir documentos online en general es la \textbf{Dublin Core(DC)}. Los campos de la DC version 1.1 son rights, coverage, relation,
 language, source, identifier, format, type, data, contributor, publisher, description, subject, creator y title.  Versiones calificadas de 
-DC han side creadas para dominions particulares como la decripci\'on de piezas de arte en museos.
+DC han sido creadas para dominions particulares como la decripci\'on de piezas de arte en museos.
 
 \subsection{Structure Based Image Retrieval:}
 
@@ -229,6 +253,19 @@ parte de la recuperaci\'on de im\'agenes. Pero el dise\~{n}o actual del filtro d
 destinado a im\'agenes rectangulares. Pero en un RBIR la regi\'on  de la imagen tiene formas err\'aticas. Por tanto en tal caso las 
 caracter\'isticas de la textura se utilizan eficazmente. Pero para la representaci\'on de im\'agenes naturales el descriptor de histogramas
 de borde (EHD) es el m\'as adecuado y eficaz.
+
+$\blacksquare$  \textbf{Forma:}
+Uno de los conceptos m\'as distintivos es la forma. Esta caracter\'istica tiene un l\'imite consecutivo de segmentos, una relaci\'on 
+de aspecto, descriptores de Fourier, circularidad e invariantes de momento. El color y la textura son m\'as \'utiles en im\'agenes 
+particulares de dominio , como objetos artificiales. A\'un asi las caracter\'isticas de la forma son caracter\'isticas esenciales 
+pero no tienen tanta popularidad los RBIR como las caracter\'isticas de textura y color para explorar los beneficios inherentes de RBIR,
+algunos sistemas podrían utilizar las características de forma como evaluadores. Por ejemplo, las características de orientación 
+y excentricidad se utilizan para este propósito. La forma de una imagen puede definir la configuraci\'on de superficie  caracter\'isticas 
+de un objeto, un contorno. Esto permite distinguir a un objeto de su entorno por su contorno. La representaci\'on de la forma puede 
+generalmente dividirse en dos categor\'ias: basado en los l\'imites y basados en regiones. La representaci\'on de la forma basada en los 
+bordes solo usa los bordes exteriores de la forma. Esto se hace describiendo la regi\'on considerada usando sus caracter\'isticas externas,
+como los pixeles a lo largo del l\'imite del objeto. Pero al representaci\'on de la forma basada en la regi\'on es totalmente diferente 
+al m\'etodo anterior. 
 
 
 

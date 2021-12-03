@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1638543988 "/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.tex" "/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.pdf" "seminario" 1638543988
+["pdflatex"] 1638555082 "/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.tex" "/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.pdf" "seminario" 1638555082
   "/etc/texmf/web2c/texmf.cnf" 1630775312 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.aux" 1638543988 2061 f910d506a1421e355481285fbf7db1b1 ""
-  "/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.tex" 1638543987 19828 7421aaf5b2b39226925f5919e0dc20ca ""
+  "/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.aux" 1638555082 2352 6ba846c3ce64dcc88f21d92674138b82 ""
+  "/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.tex" 1638555081 22646 380ffea410dc9417e934027b2c8f8b4c ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -72,13 +72,13 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1630775380 8261231 20658a41a111f5669644f71c4aa026a2 ""
   "images/kbir-process.png" 1638543203 42566 d8e25060c78a427ffe04714723a4c7f8 ""
   "llncs.cls" 1448071608 41641 6a6c51faad90e8746b73ae5f4684b060 ""
-  "seminario.aux" 1638543988 2061 f910d506a1421e355481285fbf7db1b1 "pdflatex"
-  "seminario.tex" 1638543987 19828 7421aaf5b2b39226925f5919e0dc20ca ""
-  "seminario.toc" 1638543988 1190 cac1ef2374fdb854693b09a01871893c "pdflatex"
+  "seminario.aux" 1638555082 2352 6ba846c3ce64dcc88f21d92674138b82 "pdflatex"
+  "seminario.tex" 1638555081 22646 380ffea410dc9417e934027b2c8f8b4c ""
+  "seminario.toc" 1638555082 1381 fadbb1f151514dba7827e61e3d7f9144 "pdflatex"
   (generated)
-  "seminario.toc"
-  "seminario.pdf"
-  "seminario.log"
-  "/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.log"
-  "/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.pdf"
   "seminario.aux"
+  "seminario.log"
+  "/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.pdf"
+  "seminario.toc"
+  "/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.log"
+  "seminario.pdf"

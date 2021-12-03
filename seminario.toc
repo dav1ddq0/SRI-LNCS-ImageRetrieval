@@ -1,19 +1,22 @@
-\contentsline {title}{Caracter\'isticas del problema}{2}%
-\authcount {1}
-\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{2}%
-\contentsline {title}{Principales m\'etodos para la recuperaci\'on de im\'agenes}{3}%
+\contentsline {title}{Caracter\'isticas del problema}{3}%
 \authcount {1}
 \contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{3}%
-\contentsline {subsection}{\numberline {0.1}Text Based Image Retrieval:}{4}%
-\contentsline {subsection}{\numberline {0.2}Field Based Image Retrieval:}{4}%
-\contentsline {subsection}{\numberline {0.3}Structure Based Image Retrieval:}{4}%
-\contentsline {section}{\numberline {1}Content Based Image Retrieval(CBIR):}{5}%
-\contentsline {subsection}{\numberline {1.1}Low-Level Image Feature:}{5}%
-\contentsline {subsection}{\numberline {1.2} Image Segmentation}{5}%
-\contentsline {subsection}{\numberline {1.3} Varias caracter\'isticas de bajo nivel de las im\'agenes:}{6}%
-\contentsline {title}{Evaluación del sistema}{8}%
+\contentsline {title}{Diferencias entre Image Retrieval y Content-based image retrieval}{4}%
 \authcount {1}
-\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{8}%
-\contentsline {title}{Ventajas y desventajas}{9}%
+\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{4}%
+\contentsline {title}{Principales m\'etodos para la recuperaci\'on de im\'agenes}{5}%
 \authcount {1}
-\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{9}%
+\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{5}%
+\contentsline {subsection}{\numberline {0.1}Text Based Image Retrieval:}{6}%
+\contentsline {subsection}{\numberline {0.2}Field Based Image Retrieval:}{6}%
+\contentsline {subsection}{\numberline {0.3}Structure Based Image Retrieval:}{6}%
+\contentsline {section}{\numberline {1}Content Based Image Retrieval(CBIR):}{7}%
+\contentsline {subsection}{\numberline {1.1}Low-Level Image Feature:}{7}%
+\contentsline {subsection}{\numberline {1.2} Image Segmentation}{7}%
+\contentsline {subsection}{\numberline {1.3} Varias caracter\'isticas de bajo nivel de las im\'agenes:}{8}%
+\contentsline {title}{Evaluación del sistema}{11}%
+\authcount {1}
+\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{11}%
+\contentsline {title}{Ventajas y desventajas}{12}%
+\authcount {1}
+\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{12}%
