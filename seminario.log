@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.4)  3 DEC 2021 13:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.4)  3 DEC 2021 15:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -389,11 +389,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 213--243
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 293--298
+Underfull \hbox (badness 10000) in paragraph at lines 291--296
 
  []
 
-[11] [12] (/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.aux) ) 
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 322--354
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--354
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--354
+
+ []
+
+
+Overfull \hbox (21.15373pt too wide) in paragraph at lines 322--354
+\U/msa/m/n/10 ^^D$ \OT1/cmr/m/n/10 Las in-ter-ac-ciones en-tre CBIR y la se-guri-dad de la in-for-maci^^Son ha sido pr^^Sacticamente
+ []
+
+[12] [13] [14] (/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.aux) ) 
 Here is how much of TeX's memory you used:
  4758 strings out of 481239
  66806 string characters out of 5920378
@@ -403,10 +423,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  34i,6n,36p,361b,285s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.pdf" (12 pages, 182427 bytes).
+Output written on "/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.pdf" (14 pages, 187140 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 87 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

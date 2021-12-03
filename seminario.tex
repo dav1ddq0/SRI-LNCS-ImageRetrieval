@@ -264,23 +264,21 @@ y excentricidad se utilizan para este propósito. La forma de una imagen puede d
 de un objeto, un contorno. Esto permite distinguir a un objeto de su entorno por su contorno. La representaci\'on de la forma puede 
 generalmente dividirse en dos categor\'ias: basado en los l\'imites y basados en regiones. La representaci\'on de la forma basada en los 
 bordes solo usa los bordes exteriores de la forma. Esto se hace describiendo la regi\'on considerada usando sus caracter\'isticas externas,
-como los pixeles a lo largo del l\'imite del objeto. Pero al representaci\'on de la forma basada en la regi\'on es totalmente diferente 
-al m\'etodo anterior. 
-
-
-
-
-
-
-
-
-
+como los pixeles a lo largo del l\'imite del objeto. Pero la representaci\'on de la forma basada en la regi\'on es totalmente diferente 
+al m\'etodo anterior. Utiliza la regi\'on de forma completa describiendo la regi\'on considerada sus caracter\'isticas internas; es 
+decir los pixeles contenidos en esa regi\'on.
+\\
+$\blacksquare$  \textbf{Localizaci\'on espacial:}
+No solo la textura, el color, o la forma son caracter\'isticas importantes sino tambi\'en la localizaci\'on espacial en la catalogaci\'on 
+de la regi\'on. 
 
 
 
 
 
 \newpage
+
+
 
 \title{Evaluación del sistema}
 \author{David Orlando De Quesada Oliva, Javier Dom\'inguez}
@@ -307,6 +305,53 @@ anterior y es muy popular en la comunidad de recuperación de imágenes, es la p
 de entidades recuperadas con respecto a una consulta, si la precisión se calcula en la profundidad de cada entidad relevante 
 obtenida, la precisión promedio se da como la media de toda la precisión individual. Como es obvio, esta métrica está muy 
 influenciada por elementos relevantes de alto rango y no tanto por los que se encuentran al final de la lista recuperada.
+
+\newpage
+
+\title{Aplicaciones}
+\author{David Orlando De Quesada Oliva, Javier Dom\'inguez}
+\institute{MATCOM, Universidad de La Habana,\\
+\email{d.quesada2@estudiantes.matcom.uh.cu, j.dominguez@estudiantes.matcom.uh.cu},\\
+\texttt{}
+}
+\maketitle
+
+
+
+
+El campo de la recuperación de imágenes ha demostrado ser uno necesario para los tiempos en que vivimos, donde tantas imágenes 
+se generan diariamente, desde satélites orbitando la Tierra, misiones espaciales en lo más lejos del cosmos, 
+animales en la naturaleza, paisajes, cámaras de seguridad y mucho más. Las imágenes son una fuente de información 
+muy útil en la actualidad, y por tanto almacenarlas y organizarlas es una tarea necesaria, para facilitar 
+el acceso a la información. De ahí que este campo tenga una gran cantidad de aplicaciones en la actualidad, 
+a continuación mencionamos algunas de las más importantes:
+\\\\
+\noindent $\blacksquare$ \textbf{El problema de la anotación automática de imágenenes.}\\
+El propósito principal de un sistema de recuperación de imágenes basado en contenido es descubrir imágenes que pertenecen a algún 
+concepto, en la ausencia de meta-datos, todos los intentos de automatizar el proceso de creación de estos meta-datos tiene ese 
+objetivo. La anotación de imágenes puede facilitar la búsqueda de imágenes utilizando texto. Si el mapeo resultante imagen-palabras 
+clave es confiable, la búsqueda de imagen basada en texto puede tener semánticamente más sentido que buscar en la ausencia de texto. 
+Uno de los métodos para resolver este problema de la anotación automática es usar aprendizaje supervisado para categorizar las 
+imágenes. La detección de conceptos simples como: paisaje, ciudad, animales, etc, alcanza una alta precisión.
+\\\\
+\noindent $\blacksquare$El arte y la cultura siempre han sido importantes en la vida del ser humano. A lo largo de la historia, los museos y galerías 
+de arte del mundo se han encargado de preservar nuestra diversa herencia cultural para utilizarlos como fuentes educación y 
+aprendizaje. Es por esto que recientemente se ha expresado la preocupación por digitalizar todos los materiales antiguos, 
+históricos y culturales, para la posteridad. Esto es muy importante por dos razones, primero las computadoras se han convertido 
+en el principal medio de aprendizaje y se supone que así sea durante los próximos años, por tanto la representación digital de 
+los artefactos culturales y las imágenes es algo que facilitará su popularidad, además de que sería accesible desde cualquier 
+rincón del mundo, y segundo al contrario de la información almacenada de forma digital, los artefactos y pinturas antiguas están a 
+merced a la degradación con el paso del tiempo, a los desastres y al vandalismo.
+\\\\
+\noindent $\blacksquare$ Las interacciones entre CBIR y la seguridad de la información ha sido prácticamente nulo, hasta que recientemente ciertas perspectivas 
+han emergido  para unir ambos campos, las pruebas de interacción humana (HIPs por sus siglas en inglés) y el cumplimiento de 
+la protección de los derechos de autor. Mientras por un lado constantemente estamos ampliando las fronteras de la ciencia para 
+diseñar sistemas que pueda imitar las capacidades humanas, no podemos negar los riesgos de seguridad inherentes asociados con 
+programas extremadamente "inteligentes". Uno de dichos riesgos es cuando un sitio web o algún servidor es atacado por programas 
+maliciosos que solicitan servicios a escalas masivas. Pueden ser escritos programas que consuman una gran cantidad de recursos web o 
+que influyan en los resultados de votaciones. En este caso los HIPs también conocidos como CAPTCHAs, son la solución. Estas interfaces 
+están diseñadas para diferenciar entre humanos o programas, basados en la respuesta a algunas preguntas.
+
 
 \newpage
 

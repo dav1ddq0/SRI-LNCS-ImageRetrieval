@@ -17,6 +17,9 @@
 \contentsline {title}{Evaluación del sistema}{11}%
 \authcount {1}
 \contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{11}%
-\contentsline {title}{Ventajas y desventajas}{12}%
+\contentsline {title}{Aplicaciones}{12}%
 \authcount {1}
 \contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{12}%
+\contentsline {title}{Ventajas y desventajas}{14}%
+\authcount {1}
+\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{14}%
