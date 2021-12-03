@@ -49,6 +49,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/sidecap/sidecap.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/sidecap/sidecap.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT /media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.aux
@@ -58,8 +62,29 @@ INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
 INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
@@ -87,6 +112,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/./images/kbir-process.png
+INPUT ./images/kbir-process.png
+INPUT ./images/kbir-process.png
 INPUT /media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb

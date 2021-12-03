@@ -6,6 +6,8 @@
 \usepackage{amssymb}
 \usepackage{listings}
 \usepackage{graphicx}
+\usepackage[rightcaption]{sidecap}
+
 \begin{document}
 
          % for the preliminaries
@@ -88,7 +90,7 @@ contenido. Estos  keywords  son almacenados como parte de los atributos
 asociados a la imagen. En el proceso de hacer una consulta, el sistema 
 aceptará del usuario una o varias \textbf{keywords} que serán el criterio de búsqueda.
 Luego se realiza un proceso para encontrar las imágenes que cumplen con el criterio 
-de búsqueda. Las t\'ecnicas de text based image retrieval usa texto para describir el 
+de búsqueda. Las t\'ecnicas de text based image retrieval usan texto para describir el 
 contenido de una imagen lo que a menudo crea ambig$\ddot{u}$edad e insuficiencia en el 
 procesamiento de la query y el rendimiento en una b\'usqueda de la base de datos de 
 im\'agenes. El proceso de asignaci\'on de meta datos con captions o keywords a una imagen
@@ -96,6 +98,15 @@ digital es conocido como anotaci\'on autom\'atica de im\'agenes(automatic image 
 Este tipo de text based informacion retrieval est\'a motivado l\'exicamente en lugar de 
 conceptualmente, lo que lleva a resultados de b\'usqueda irrelevantes en la recuperaci\'on en la 
 recuperaci\'on de informaci\'on.
+\\
+\begin{SCfigure}[0.5]
+    \caption{Proceso general de un keyword based image retrieval}
+    \includegraphics[scale = .3]{./images/kbir-process.png}
+\end{SCfigure}
+
+
+
+
 
 \subsection{Text Based Image Retrieval:}
 
@@ -269,5 +280,16 @@ influenciada por elementos relevantes de alto rango y no tanto por los que se en
 \texttt{}
 }
 \maketitle
+
+Desventajas:\\
+Keyword Based Image Retrieval:
+En el keyword based image retrieval el contenido de una imagen es mucho m\'as rico de lo que cualquier conjunto de palabras pueda 
+expresar, solo usando texto para describir el contenido de una imagen a menudo causa ambig\"{u}edad e insuficiencia en el rendimiento
+de la b\'usqueda de im\'agenes en una base de datos y el procesamiento de las query de los usuarios. Este problema se debe a la 
+dificultad de especificar t\'erminos y frases exactas al describir el contenido de una imagen.
+\\
+Los sistemas basados en Contend Based Image Retrieval(CBIR) sufren de lo que se denomina brecha sem\'antica. Es una brecha 
+entre la captaci\'on de im\'agenes de alto nivel de una mente humana y la estimaci\'on de im\'agenes de bajo nivel de 
+las computadoras. 
 
 \end{document}
