@@ -270,7 +270,30 @@ decir los pixeles contenidos en esa regi\'on.
 \\
 $\blacksquare$  \textbf{Localizaci\'on espacial:}
 No solo la textura, el color, o la forma son caracter\'isticas importantes sino tambi\'en la localizaci\'on espacial en la catalogaci\'on 
-de la regi\'on. 
+de la regi\'on. Por ejemplo una imagen que contenga \'arboles con c\'esped en el suelo podr\'ia tener caracter\'isticas de color y textura 
+similares pero su localizaci\'on espacial ser diferente , normalmente las hojas de los \'arboles aparecen en la parte superior de una imagen,
+mientras que las hojas que caen en la parte inferior. Las ubicaciones espaciales se definen intuitivamente como :\textbf{izquierda(left), derecha(right),
+top(arriba), bottom(abajo)},seg\'un el lugar de la regi\'on en la imagen. El rect\'angulo delimitador m\'inimo (minimum bounding rectangle) y 
+el centroide de la regi\'on se utilizan para encontrar la ubicaci\'on espacial.     
+
+\section*{Semantic Based Image Retrieval:}
+
+Ni una, ni la combinación de varias características visuales o de bajo nivel (color, textura, forma, relación espacial) pueden capturar 
+completamente los conceptos de alto nivel de las imágenes. Además, debido a que el rendimiento de la recuperación de imágenes basado en 
+características de bajo nivel no es satisfactorio, hay una necesidad de que la investigación vaya dirigida hacia la recuperación de 
+imágenes basada en el significado semántico, tratando de utilizar el concepto cognitivo del ser humano para traducir esas 
+características de bajo nivel a conceptos semánticos de alto nivel (vacío semántico). Este acercamiento permite a los usuarios 
+acceder a imágenes a través de consultas por texto, la cual es más intuitiva, fácil y preferida por los usuarios para expresar 
+su deseo. Como mencionamos previamente en el CBIR, las imágenes pasan por un proceso de extracción de características de bajo nivel que 
+se almacena junto con las imágenes, ahora aquí, se hace necesario traducir esas características de bajo nivel a conceptos de alto nivel 
+que no es capaz de comprender una máquina. Esta traducción usualmente se lleva a cabo utilizando herramientas de aprendizaje supervisado 
+o no-supervisado, para asociar las características de bajo nivel con conceptos de alto nivel, los cuáles serán apuntados con palabras, 
+durante el proceso de anotación de imágenes.
+Como podemos ver la recuperación de imágenes basada en la semántica utiliza técnicas de los 2 mecanismos que surgieron previamente, 
+la extracción de características de bajo nivel utilizada en CBIR y la anotación de imágenes utilizada en el mecanismo basado en 
+palabras claves, para almacenar en la imagen palabras \textbf{keywords} que se obtengan del proceso de conversión de características de 
+bajo nivel a conceptos de alto nivel propio de este nuevo mecanismo.
+
 
 
 
