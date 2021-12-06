@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.23)  6 DEC 2021 12:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.23)  6 DEC 2021 15:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -374,7 +374,14 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count314
 \l__pdf_internal_box=\box100
-) (/home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/seminario.aux)
+) (/home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/seminario.aux
+
+LaTeX Warning: Label `2rab' multiply defined.
+
+
+LaTeX Warning: Label `2rab' multiply defined.
+
+)
 \openout1 = `seminario.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -467,17 +474,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \hbox (2.79094pt too wide) in paragraph at lines 34--40
-[]\OT1/cmr/m/n/9 ...En este pa-per se aborda so-bre la re-cu-peraci^^Son de im^^Sagenes,
- []
-
-
-Overfull \hbox (7.25893pt too wide) in paragraph at lines 41--42
-\OT1/cmr/bx/n/9 Keywords:\OT1/cmr/m/n/9 content-based im-age re-trieval, keyword-based im-age re-trieval,
- []
-
-[1
+) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/seminario.toc)
 \tf@toc=\write4
@@ -573,29 +570,29 @@ Underfull \hbox (badness 2662) in paragraph at lines 311--311
  []
 
 [11 </home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/./images/visual_idea_ontology.png (PNG copy)>] [12 </home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/./images/ontolgy-bases-image-retrieval-process.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 336--341
+Underfull \hbox (badness 10000) in paragraph at lines 340--345
 
  []
 
 [13
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 363--395
+Underfull \hbox (badness 10000) in paragraph at lines 367--399
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--395
+Underfull \hbox (badness 10000) in paragraph at lines 367--399
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--395
+Underfull \hbox (badness 10000) in paragraph at lines 367--399
 
  []
 
 
-Overfull \hbox (21.15373pt too wide) in paragraph at lines 363--395
+Overfull \hbox (21.15373pt too wide) in paragraph at lines 367--399
 \U/msa/m/n/10 ^^D$ \OT1/cmr/m/n/10 Las in-ter-ac-ciones en-tre CBIR y la se-guri-dad de la in-for-maci^^Son ha sido pr^^Sacticamente
  []
 
@@ -605,74 +602,85 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [14
 
 ] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 402--403
+Underfull \hbox (badness 10000) in paragraph at lines 406--407
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--406
+Underfull \hbox (badness 10000) in paragraph at lines 408--410
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--411
+Underfull \hbox (badness 10000) in paragraph at lines 411--415
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--413
+Underfull \hbox (badness 10000) in paragraph at lines 416--417
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--418
+Underfull \hbox (badness 10000) in paragraph at lines 418--422
 
  []
 
 
-Overfull \hbox (4.73807pt too wide) in paragraph at lines 419--423
+Overfull \hbox (4.73807pt too wide) in paragraph at lines 423--427
 \OMS/cmsy/m/n/10 ^^O$ \OT1/cmr/m/n/10 Los sis-temas basa-dos esta t^^Secnica sufren de lo que se de-nom-ina brecha sem^^Santica.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 419--423
+Underfull \hbox (badness 10000) in paragraph at lines 423--427
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--428
+Underfull \hbox (badness 10000) in paragraph at lines 430--432
 
  []
 
 [16
 
-] [17] (/home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/seminario.aux)
+] [17pdfTeX warning (ext4): destination with the same identifier (name{cite.2rab}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.483 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier (name{cite.2rab}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.483 \end{document}
+                    ] (/home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/seminario.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `seminario.out' has not changed.
-(rerunfilecheck)             Checksum: 0B3DF4832E649EA23541B52DD909352B;1897.
+(rerunfilecheck)             Checksum: B4F2670B247E5A24344E0F907AEBC07F;1899.
  ) 
 Here is how much of TeX's memory you used:
- 10995 strings out of 478994
- 157527 string characters out of 5864751
- 467177 words of memory out of 5000000
- 28265 multiletter control sequences out of 15000+600000
- 411476 words of font info for 58 fonts, out of 8000000 for 9000
+ 10973 strings out of 478994
+ 157301 string characters out of 5864751
+ 467216 words of memory out of 5000000
+ 28250 multiletter control sequences out of 15000+600000
+ 407767 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,8n,74p,579b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on /home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/seminario.pdf (17 pages, 439445 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on /home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/seminario.pdf (17 pages, 427437 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
- 171 compressed objects within 2 object streams
- 47 named destinations out of 1000 (max. 500000)
+ 201 PDF objects out of 1000 (max. 8388607)
+ 166 compressed objects within 2 object streams
+ 48 named destinations out of 1000 (max. 500000)
  85 words of extra memory for PDF output out of 10000 (max. 10000000)
 
