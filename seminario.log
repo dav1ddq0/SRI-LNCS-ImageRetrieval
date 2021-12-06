@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.4)  6 DEC 2021 15:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.4)  6 DEC 2021 15:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -648,46 +648,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 430--432
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 436--437
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 436--437
+
+ []
+
 [16
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 483.
- [17pdfTeX warning (ext4): destination with the same identifier (name{cite.2rab}) has been already used, duplicate ignored
+] [17]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 495.
+ [18pdfTeX warning (ext4): destination with the same identifier (name{cite.2rab}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.483 \end{document}
+l.495 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier (name{cite.2rab}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.483 \end{document}
+l.495 \end{document}
                     ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 483.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 495.
  (/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 483.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 483.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 495.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 495.
 Package rerunfilecheck Info: File `seminario.out' has not changed.
 (rerunfilecheck)             Checksum: A49E2C97E339A6162ECED130C5A662C0;602.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 483.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 495.
  ) 
 Here is how much of TeX's memory you used:
- 8373 strings out of 481239
- 123940 string characters out of 5920378
+ 8374 strings out of 481239
+ 123947 string characters out of 5920378
  391810 words of memory out of 5000000
  23439 multiletter control sequences out of 15000+600000
  536675 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,8n,36p,368b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.pdf" (17 pages, 427294 bytes).
+Output written on "/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.pdf" (18 pages, 428266 bytes).
 PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
- 166 compressed objects within 2 object streams
- 48 named destinations out of 1000 (max. 500000)
+ 206 PDF objects out of 1000 (max. 8388607)
+ 170 compressed objects within 2 object streams
+ 49 named destinations out of 1000 (max. 500000)
  85 words of extra memory for PDF output out of 10000 (max. 10000000)
 
