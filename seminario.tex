@@ -38,7 +38,7 @@
     entre otros. Las ventajas y desventajas de estos m\'etodos y que aplicaciones reales tiene 
     la recuperaci\'on de im\'agenes .
 
-   \keywords{CBIR, content-based image retrieval, keyword-based image retrieval, image retrieval,}
+   \keywords{CBIR, content-based image retrieval, keyword-based image retrieval, image retrieval,ontology}
 \end{abstract}
 
 \tableofcontents
@@ -340,13 +340,14 @@ bastante cercana a la query del usuario.
 La recuperación de imágenes es esencialmente un problema de recuperación de información. Por tanto, 
 las métricas de evaluación han sido adoptados de forma bastante natural a partir de la investigación de 
 recuperación de información. Dos de las Las medidas de evaluación más populares son:\\
-$\blacksquare$ Precisión: el porcentaje de imágenes recuperadas que son relevantes para la consulta.\\
-$\blacksquare$ Recobrado: el porcentaje de todas las imágenes relevantes en la base de datos de búsqueda que se recuperan.\\
+$\blacksquare$ Precisión:  n\'umero de im\'agenes relevantes  recuperadas /total de im\'agenes recuperadas.
+.\\
+$\blacksquare$ Recobrado:  n\'umero de im\'agenes relevantes  recuperadas /n\'umero de im\'agenes relevantes en la colecci\'on\\
 
 Es importante tener en cuenta que cuando la consulta en cuestión es una imagen, la relevancia es extremadamente subjetiva. 
-La investigación sobre recuperación de información ha demostrado que la precisión y el recobrado siguen una relación inversa. 
-La precisión cae mientras que la recobrado aumenta a medida que el número de imágenes recuperadas, a menudo denominadas alcance, 
-aumenta. Por lo tanto, es típico que tengan un valor numérico alto tanto para la precisión como para la recuperación. 
+Mientras mayor sea el recobrado y la precisi\'on , m\'as eficiente ser\'a el algoritmo de recuperaci\'on en cuesti\'on.
+El recobrado refleja la capacidad de recuperaci\'on de im\'agenes relacionadas, mientras que la precisi\'on refleja la
+capacidad de rechazar las im\'agenes no relacionadas.
 Tradicionalmente, los resultados se resumen como curvas de recuperación de precisión o curvas de alcance de precisión. 
 Una critica por la precisión se deriva del hecho de que se calcula para todo el conjunto recuperado y esta no se ve afectada 
 por las clasificaciones respectivas de las entidades relevantes en la lista recuperada. Una medida que aborda el problema 
