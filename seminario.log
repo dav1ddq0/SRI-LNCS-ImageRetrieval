@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.4)  5 DEC 2021 23:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.4)  6 DEC 2021 10:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -452,215 +452,231 @@ LaTeX Info: Redefining \selectfont on input line 126.
 \RaggedRightParindent=\skip67
 \JustifyingParindent=\skip68
 )
-Overfull \hbox (2.79094pt too wide) in paragraph at lines 26--32
+LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (2.79094pt too wide) in paragraph at lines 34--40
 []\OT1/cmr/m/n/9 ...En este pa-per se aborda so-bre la re-cu-peraci^^Son de im^^Sagenes,
  []
 
 
-Overfull \hbox (7.25893pt too wide) in paragraph at lines 33--34
+Overfull \hbox (7.25893pt too wide) in paragraph at lines 41--42
 \OT1/cmr/bx/n/9 Keywords:\OT1/cmr/m/n/9 content-based im-age re-trieval, keyword-based im-age re-trieval,
  []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.toc)
 \tf@toc=\write4
 \openout4 = `seminario.toc'.
 
  [2
 
-] [3] [4]
-<./images/kbir-process.png, id=68, 807.015pt x 376.40625pt>
+] [3
+
+] [4
+
+]
+<./images/kbir-process.png, id=73, 807.015pt x 376.40625pt>
 File: ./images/kbir-process.png Graphic file (type png)
 <use ./images/kbir-process.png>
-Package pdftex.def Info: ./images/kbir-process.png  used on input line 136.
+Package pdftex.def Info: ./images/kbir-process.png  used on input line 113.
 (pdftex.def)             Requested size: 242.10637pt x 112.92273pt.
- [5 <./images/kbir-process.png (PNG copy)>] [6]
-<./images/cbir arquitecture.png, id=83, 420.06938pt x 256.70906pt>
+ [5
+
+ <./images/kbir-process.png (PNG copy)>]
+<./images/cbir arquitecture.png, id=81, 420.06938pt x 256.70906pt>
 File: ./images/cbir arquitecture.png Graphic file (type png)
 <use ./images/cbir arquitecture.png>
-Package pdftex.def Info: ./images/cbir arquitecture.png  used on input line 192.
+Package pdftex.def Info: ./images/cbir arquitecture.png  used on input line 170.
 (pdftex.def)             Requested size: 126.02179pt x 77.0133pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Underfull \hbox (badness 10000) in paragraph at lines 171--171
 [][]\OT1/cmr/bx/n/9 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
+Underfull \hbox (badness 10000) in paragraph at lines 171--171
 []|\OT1/cmr/m/n/9 Arquitectura
  []
 
 
-Underfull \hbox (badness 2096) in paragraph at lines 193--193
+Underfull \hbox (badness 2096) in paragraph at lines 171--171
 \OT1/cmr/m/n/9 gen-eral de un
  []
 
-[7 <./images/cbir arquitecture.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 225--227
+[6] [7 <./images/cbir arquitecture.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 203--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--249
+Underfull \hbox (badness 10000) in paragraph at lines 206--227
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 250--256
+Underfull \hbox (badness 10000) in paragraph at lines 228--234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--269
+Underfull \hbox (badness 10000) in paragraph at lines 235--247
 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--269
+
+ []
+
+
+Underfull \vbox (badness 5105) has occurred while \output is active []
+
+ [9] [10]
+<./images/visual_idea_ontology.png, id=112, 833.36343pt x 353.06906pt>
+File: ./images/visual_idea_ontology.png Graphic file (type png)
+<use ./images/visual_idea_ontology.png>
+Package pdftex.def Info: ./images/visual_idea_ontology.png  used on input line 303.
+(pdftex.def)             Requested size: 250.01096pt x 105.92152pt.
+<./images/ontolgy-bases-image-retrieval-process.png, id=113, 425.33907pt x 452.4403pt>
+File: ./images/ontolgy-bases-image-retrieval-process.png Graphic file (type png)
+<use ./images/ontolgy-bases-image-retrieval-process.png>
+Package pdftex.def Info: ./images/ontolgy-bases-image-retrieval-process.png  used on input line 310.
+(pdftex.def)             Requested size: 170.1326pt x 180.97292pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+\OT1/cmr/m/n/9 de la on-tolog^^S^^Pa
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 311--311
+\OT1/cmr/m/n/9 apli-cada al pro-ceso
+ []
+
+
+Underfull \hbox (badness 2662) in paragraph at lines 311--311
+\OT1/cmr/m/n/9 de re-cu-peraci^^Son de
+ []
+
+[11 <./images/visual_idea_ontology.png (PNG copy)>] [12 <./images/ontolgy-bases-image-retrieval-process.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 336--341
+
+ []
+
+[13
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 363--395
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--395
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--395
+
+ []
+
+
+Overfull \hbox (21.15373pt too wide) in paragraph at lines 363--395
+\U/msa/m/n/10 ^^D$ \OT1/cmr/m/n/10 Las in-ter-ac-ciones en-tre CBIR y la se-guri-dad de la in-for-maci^^Son ha sido pr^^Sacticamente
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9]
-Underfull \hbox (badness 10000) in paragraph at lines 270--291
+ [14
 
- []
-
-[10]
-<./images/visual_idea_ontology.png, id=108, 833.36343pt x 353.06906pt>
-File: ./images/visual_idea_ontology.png Graphic file (type png)
-<use ./images/visual_idea_ontology.png>
-Package pdftex.def Info: ./images/visual_idea_ontology.png  used on input line 325.
-(pdftex.def)             Requested size: 250.01096pt x 105.92152pt.
-<./images/ontolgy-bases-image-retrieval-process.png, id=109, 425.33907pt x 452.4403pt>
-File: ./images/ontolgy-bases-image-retrieval-process.png Graphic file (type png)
-<use ./images/ontolgy-bases-image-retrieval-process.png>
-Package pdftex.def Info: ./images/ontolgy-bases-image-retrieval-process.png  used on input line 332.
-(pdftex.def)             Requested size: 170.1326pt x 180.97292pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 333--333
-\OT1/cmr/m/n/9 de la on-tolog^^S^^Pa
- []
-
-
-Underfull \hbox (badness 1852) in paragraph at lines 333--333
-\OT1/cmr/m/n/9 apli-cada al pro-ceso
- []
-
-
-Underfull \hbox (badness 2662) in paragraph at lines 333--333
-\OT1/cmr/m/n/9 de re-cu-peraci^^Son de
- []
-
-[11 <./images/visual_idea_ontology.png (PNG copy)>] [12 <./images/ontolgy-bases-image-retrieval-process.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 362--367
-
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 393--425
+] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--425
+Underfull \hbox (badness 10000) in paragraph at lines 404--406
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--425
+Underfull \hbox (badness 10000) in paragraph at lines 407--411
 
  []
 
 
-Overfull \hbox (21.15373pt too wide) in paragraph at lines 393--425
-\U/msa/m/n/10 ^^D$ \OT1/cmr/m/n/10 Las in-ter-ac-ciones en-tre CBIR y la se-guri-dad de la in-for-maci^^Son ha sido pr^^Sacticamente
- []
-
-[14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 437--438
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 439--441
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--446
+Underfull \hbox (badness 10000) in paragraph at lines 415--418
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--449
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 447--449
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 450--453
-
- []
-
-
-Overfull \hbox (4.73807pt too wide) in paragraph at lines 454--458
+Overfull \hbox (4.73807pt too wide) in paragraph at lines 419--423
 \OMS/cmsy/m/n/10 ^^O$ \OT1/cmr/m/n/10 Los sis-temas basa-dos esta t^^Secnica sufren de lo que se de-nom-ina brecha sem^^Santica.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--458
+Underfull \hbox (badness 10000) in paragraph at lines 419--423
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--460
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--460
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--463
+Underfull \hbox (badness 10000) in paragraph at lines 426--428
 
  []
 
+[16
+
+]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 467.
-[16]
+ [17]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 467.
  (/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 467.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 467.
 Package rerunfilecheck Info: File `seminario.out' has not changed.
-(rerunfilecheck)             Checksum: E9041C1C27EC5FDE8CDD628C85896302;426.
+(rerunfilecheck)             Checksum: 222BD00CACA17BA36C8622FF2F3DCA6F;600.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 467.
  ) 
 Here is how much of TeX's memory you used:
- 8364 strings out of 481239
- 123835 string characters out of 5920378
- 391609 words of memory out of 5000000
- 23434 multiletter control sequences out of 15000+600000
- 536675 words of font info for 41 fonts, out of 8000000 for 9000
+ 8395 strings out of 481239
+ 124166 string characters out of 5920378
+ 392771 words of memory out of 5000000
+ 23454 multiletter control sequences out of 15000+600000
+ 540384 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,8n,36p,368b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.pdf" (16 pages, 420655 bytes).
+ 34i,8n,36p,368b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on "/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.pdf" (17 pages, 439301 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
- 44 named destinations out of 1000 (max. 500000)
- 69 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 208 PDF objects out of 1000 (max. 8388607)
+ 171 compressed objects within 2 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 85 words of extra memory for PDF output out of 10000 (max. 10000000)
 
