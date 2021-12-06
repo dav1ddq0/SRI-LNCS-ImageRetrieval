@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1638822903 "/home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/seminario.tex" "/home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/seminario.pdf" "seminario" 1638822904
+["pdflatex"] 1638822903 "/home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/seminario.tex" "/home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/seminario.pdf" "seminario" 1638822963
   "/home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/seminario.aux" 1638822903 4157 fe08301e4e49b92d6d84ca64f2bff31e ""
   "/home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/seminario.tex" 1638822899 33775 7802526d24756e587ffdce0656f6b0b3 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1617738065 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -104,10 +104,10 @@
   "seminario.tex" 1638822899 33775 7802526d24756e587ffdce0656f6b0b3 ""
   "seminario.toc" 1638822903 1611 26917fbfe6ee8b2ff2d9b32b72ae31fd "pdflatex"
   (generated)
+  "seminario.aux"
   "seminario.log"
-  "seminario.toc"
-  "seminario.pdf"
   "/home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/seminario.pdf"
   "seminario.out"
+  "seminario.toc"
   "/home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/seminario.log"
-  "seminario.aux"
+  "seminario.pdf"
