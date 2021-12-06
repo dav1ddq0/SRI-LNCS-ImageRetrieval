@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.23)  5 DEC 2021 20:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.23)  5 DEC 2021 20:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -377,24 +377,24 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 ) (/home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/seminario.aux)
 \openout1 = `seminario.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
  (/usr/share/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
  (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -402,7 +402,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 19.
+Package hyperref Info: Link coloring ON on input line 21.
  (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
@@ -412,9 +412,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count315
 )
-LaTeX Info: Redefining \ref on input line 19.
-LaTeX Info: Redefining \pageref on input line 19.
-LaTeX Info: Redefining \nameref on input line 19.
+LaTeX Info: Redefining \ref on input line 21.
+LaTeX Info: Redefining \pageref on input line 21.
+LaTeX Info: Redefining \nameref on input line 21.
  (/home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/seminario.out) (/home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/seminario.out)
 \@outlinefile=\write3
 \openout3 = `seminario.out'.
@@ -460,12 +460,12 @@ LaTeX Info: Redefining \selectfont on input line 123.
 \RaggedRightParindent=\skip67
 \JustifyingParindent=\skip68
 )
-Overfull \hbox (2.79094pt too wide) in paragraph at lines 24--30
+Overfull \hbox (2.79094pt too wide) in paragraph at lines 26--32
 []\OT1/cmr/m/n/9 ...En este pa-per se aborda so-bre la re-cu-peraci^^Son de im^^Sagenes,
  []
 
 
-Overfull \hbox (7.25893pt too wide) in paragraph at lines 31--32
+Overfull \hbox (7.25893pt too wide) in paragraph at lines 33--34
 \OT1/cmr/bx/n/9 Keywords:\OT1/cmr/m/n/9 content-based im-age re-trieval, keyword-based im-age re-trieval,
  []
 
@@ -489,133 +489,159 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <./images/kbir-process.png, id=68, 807.015pt x 376.40625pt>
 File: ./images/kbir-process.png Graphic file (type png)
 <use ./images/kbir-process.png>
-Package pdftex.def Info: ./images/kbir-process.png  used on input line 134.
+Package pdftex.def Info: ./images/kbir-process.png  used on input line 136.
 (pdftex.def)             Requested size: 242.10637pt x 112.92273pt.
  [5 </home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/./images/kbir-process.png (PNG copy)>] [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 215--217
+Underfull \hbox (badness 10000) in paragraph at lines 217--219
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--239
+Underfull \hbox (badness 10000) in paragraph at lines 220--241
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 240--246
+Underfull \hbox (badness 10000) in paragraph at lines 242--248
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--259
+Underfull \hbox (badness 10000) in paragraph at lines 249--261
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 260--281
+Underfull \hbox (badness 10000) in paragraph at lines 262--283
 
  []
 
 
 Underfull \vbox (badness 5105) has occurred while \output is active []
 
- [9] [10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 310--315
+ [9] [10]
+<./images/visual_idea_ontology.png, id=106, 833.36343pt x 353.06906pt>
+File: ./images/visual_idea_ontology.png Graphic file (type png)
+<use ./images/visual_idea_ontology.png>
+Package pdftex.def Info: ./images/visual_idea_ontology.png  used on input line 320.
+(pdftex.def)             Requested size: 250.01096pt x 105.92152pt.
+<./images/ontolgy-bases-image-retrieval-process.png, id=107, 425.33907pt x 452.4403pt>
+File: ./images/ontolgy-bases-image-retrieval-process.png Graphic file (type png)
+<use ./images/ontolgy-bases-image-retrieval-process.png>
+Package pdftex.def Info: ./images/ontolgy-bases-image-retrieval-process.png  used on input line 327.
+(pdftex.def)             Requested size: 170.1326pt x 180.97292pt.
 
- []
-
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 341--373
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 341--373
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 341--373
-
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
+\OT1/cmr/m/n/9 de la on-tolog^^S^^Pa
  []
 
 
-Overfull \hbox (21.15373pt too wide) in paragraph at lines 341--373
+Underfull \hbox (badness 1852) in paragraph at lines 328--328
+\OT1/cmr/m/n/9 apli-cada al pro-ceso
+ []
+
+
+Underfull \hbox (badness 2662) in paragraph at lines 328--328
+\OT1/cmr/m/n/9 de re-cu-peraci^^Son de
+ []
+
+[11 </home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/./images/visual_idea_ontology.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 358--363
+
+ []
+
+[12 </home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/./images/ontolgy-bases-image-retrieval-process.png (PNG copy)>] [13]
+Underfull \hbox (badness 10000) in paragraph at lines 389--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--421
+
+ []
+
+
+Overfull \hbox (21.15373pt too wide) in paragraph at lines 389--421
 \U/msa/m/n/10 ^^D$ \OT1/cmr/m/n/10 Las in-ter-ac-ciones en-tre CBIR y la se-guri-dad de la in-for-maci^^Son ha sido pr^^Sacticamente
  []
 
-[13] [14]
-Underfull \hbox (badness 10000) in paragraph at lines 385--386
+[14] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 433--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--389
+Underfull \hbox (badness 10000) in paragraph at lines 435--437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--394
+Underfull \hbox (badness 10000) in paragraph at lines 438--442
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--397
+Underfull \hbox (badness 10000) in paragraph at lines 443--445
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--397
+Underfull \hbox (badness 10000) in paragraph at lines 443--445
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--401
+Underfull \hbox (badness 10000) in paragraph at lines 446--449
 
  []
 
 
-Overfull \hbox (4.73807pt too wide) in paragraph at lines 402--406
+Overfull \hbox (4.73807pt too wide) in paragraph at lines 450--454
 \OMS/cmsy/m/n/10 ^^O$ \OT1/cmr/m/n/10 Los sis-temas basa-dos esta t^^Secnica sufren de lo que se de-nom-ina brecha sem^^Santica.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--406
+Underfull \hbox (badness 10000) in paragraph at lines 450--454
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--408
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--408
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 409--411
+Underfull \hbox (badness 10000) in paragraph at lines 457--459
 
  []
 
-[15] (/home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/seminario.aux)
+[16] (/home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/seminario.aux)
 Package rerunfilecheck Info: File `seminario.out' has not changed.
 (rerunfilecheck)             Checksum: 46CD538C0741E715E1AAC2AA6AD123F4;1335.
  ) 
 Here is how much of TeX's memory you used:
- 10938 strings out of 478994
- 156421 string characters out of 5864751
- 466842 words of memory out of 5000000
- 28227 multiletter control sequences out of 15000+600000
+ 10956 strings out of 478994
+ 156988 string characters out of 5864751
+ 466954 words of memory out of 5000000
+ 28239 multiletter control sequences out of 15000+600000
  407767 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,8n,74p,506b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,8n,74p,506b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on /home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/seminario.pdf (15 pages, 200735 bytes).
+Output written on /home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/seminario.pdf (16 pages, 363050 bytes).
 PDF statistics:
- 177 PDF objects out of 1000 (max. 8388607)
- 147 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
- 54 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 187 PDF objects out of 1000 (max. 8388607)
+ 154 compressed objects within 2 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 64 words of extra memory for PDF output out of 10000 (max. 10000000)
 

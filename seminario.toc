@@ -19,9 +19,9 @@
 \contentsline {title}{Evaluación del sistema}{12}{chapter.4}%
 \authcount {1}
 \contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{12}{chapter.4}%
-\contentsline {title}{Aplicaciones}{13}{chapter.5}%
+\contentsline {title}{Aplicaciones}{14}{chapter.5}%
 \authcount {1}
-\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{13}{chapter.5}%
-\contentsline {title}{Ventajas y desventajas}{15}{chapter.6}%
+\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{14}{chapter.5}%
+\contentsline {title}{Ventajas y desventajas}{16}{chapter.6}%
 \authcount {1}
-\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{15}{chapter.6}%
+\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{16}{chapter.6}%

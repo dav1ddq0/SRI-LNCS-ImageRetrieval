@@ -514,6 +514,7 @@ INPUT /usr/share/texmf-dist/tex/latex/base/ifthen.sty
 INPUT /usr/share/texmf-dist/tex/latex/base/ifthen.sty
 INPUT /usr/share/texmf-dist/tex/latex/base/ifthen.sty
 INPUT /usr/share/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -676,6 +677,16 @@ INPUT /home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/.
 INPUT /home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/./images/kbir-process.png
 INPUT /home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/./images/kbir-process.png
 INPUT /home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/./images/kbir-process.png
+INPUT /home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/./images/visual_idea_ontology.png
+INPUT /home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/./images/visual_idea_ontology.png
+INPUT /home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/./images/visual_idea_ontology.png
+INPUT /home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/./images/visual_idea_ontology.png
+INPUT /home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/./images/visual_idea_ontology.png
+INPUT /home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/./images/ontolgy-bases-image-retrieval-process.png
+INPUT /home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/./images/ontolgy-bases-image-retrieval-process.png
+INPUT /home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/./images/ontolgy-bases-image-retrieval-process.png
+INPUT /home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/./images/ontolgy-bases-image-retrieval-process.png
+INPUT /home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/./images/ontolgy-bases-image-retrieval-process.png
 INPUT /home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/seminario.aux
 INPUT /home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/seminario.out
 INPUT /home/javier/Documents/3er-año-2do-semestre/SRI/SRI-LNCS-ImageRetrieval/seminario.out
