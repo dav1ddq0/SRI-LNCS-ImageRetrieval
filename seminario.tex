@@ -8,6 +8,8 @@
 \usepackage{graphicx}
 \usepackage[rightcaption]{sidecap}
 
+\usepackage{hyperref}
+
 \begin{document}
 
          % for the preliminaries
@@ -208,7 +210,7 @@ en la confianza en la necesidad del sistema y el uso del conjunto de datos. Es d
 resultados. El resultado del JSEG es la textura y el color de regiones similares, pero el resultado de KMCC produce objetos que son diferentes.
 El algoritmo KMCC es computacionalmente mucho m\'as exhaustivo que el JSEG. Por tanto, Blobworld y JSEG son principalmente los algoritmos usados.
 
-\subsection{ Varias caracter\'isticas de bajo nivel de las im\'agenes:}
+\subsection { Varias caracter\'isticas de bajo nivel de las im\'agenes:}
 
 En las diversas categor\'ias de algoritmos muy pocos se pueden aplicar en la recuperaci\'on de im\'agenes en tiempo real con 
 sem\'antica de alto nivel que son:\\
@@ -293,6 +295,44 @@ Como podemos ver la recuperación de imágenes basada en la semántica utiliza t
 la extracción de características de bajo nivel utilizada en CBIR y la anotación de imágenes utilizada en el mecanismo basado en 
 palabras claves, para almacenar en la imagen palabras \textbf{keywords} que se obtengan del proceso de conversión de características de 
 bajo nivel a conceptos de alto nivel propio de este nuevo mecanismo.
+
+
+\section*{Ontology Based Image Retrieval:}
+Ontolog\'ia significa una descripci\'on particular de una conceptualizaci\'on. Dise\~{n}a un dominio de manera formal. Con la ayuda 
+de informaci\'on textual en los alrededores solo la recuperaci\'on de im\'agenes web es lograda. Hay algunos motores de recuperaci\'on 
+de im\'agenes dependientes de texto todavia disponibles en la web como Yahoo y Google. Estos usan caracter\'isticas de texto como 
+los nombres de archivos como \'indices para buscar im\'agenes en la web. Muchos motores de recuperaci\'on de im\'agenes est\'an todav\'ia 
+bajo construcci\'on. Los descriptores de bajo nivel de estos motores est\'an lejos de las nociones sem\'anticas. El otro tipo de sistemas
+solo se basa en anotaciones humanas. Por tanto, es necesario definir y hacer un enfoque intermedio para la compresi\'on de im\'agenes. 
+Algunos sistemas pueden definir un dominio espec\'ifico a partir de un dominio experto  identificando vocabularios utilizados para 
+para describir objetos de inter\'es. La cosa m\'as deseable en la recuperaci\'on de im\'agenes es la ontolog\'ia del concepto visual 
+independiente del dominio. Este tipo de ontolog\'ia admite el reconocimiento autom\'atico basado en t\'ecnicas de procesamiento de 
+im\'agenes.  En esto un dominio espec\'ifico se especifica usando una estructura de \'arbol con herarqu\'ia de clases de sus subelementos 
+en cada nivel.
+
+\begin{SCfigure}[0.5]
+    \caption{Idea visual de la Ontolog\'ia}
+    \includegraphics[scale = .3]{./images/visual_idea_ontology.png}
+\end{SCfigure}
+
+\noindent
+
+\begin{SCfigure}[0.5]
+    \caption{Arquitectura de la ontolog\'ia aplicada al proceso de recuperaci\'on de im\'agenes}
+    \includegraphics[scale = .4]{./images/ontolgy-bases-image-retrieval-process.png}
+\end{SCfigure}
+
+La extracci\'on de imagen hecha por una computadora puede resultar con conceptos de imagen 
+significativos. Estos conceptos puede ser color, textura, forma o localizaci\'on espacial.
+Mapear o m\'as de esos conceptos resultantes en ontolog\'ia interpretar\'a el significado 
+conceptual de una imagen. Si la query de recuperaci\'on captura la intenci\'on actual de los
+usuarios a trav\'es de la representaci\'on ontol\'ogica, definitivamente reducir\'a la disparidad 
+sem\'antica entre el hombre y la m\'aquina.   
+
+\noindent
+
+
+
 
 
 

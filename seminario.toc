@@ -1,25 +1,25 @@
-\contentsline {title}{Caracter\'isticas del problema}{3}%
+\contentsline {title}{Caracter\'isticas del problema}{3}{chapter.1}%
 \authcount {1}
-\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{3}%
-\contentsline {title}{Diferencias entre Image Retrieval y Content-based image retrieval}{4}%
+\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{3}{chapter.1}%
+\contentsline {title}{Diferencias entre Image Retrieval y Content-based image retrieval}{4}{chapter.2}%
 \authcount {1}
-\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{4}%
-\contentsline {title}{Principales m\'etodos para la recuperaci\'on de im\'agenes}{5}%
+\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{4}{chapter.2}%
+\contentsline {title}{Principales m\'etodos para la recuperaci\'on de im\'agenes}{5}{chapter.3}%
 \authcount {1}
-\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{5}%
-\contentsline {subsection}{\numberline {0.1}Text Based Image Retrieval:}{6}%
-\contentsline {subsection}{\numberline {0.2}Field Based Image Retrieval:}{6}%
-\contentsline {subsection}{\numberline {0.3}Structure Based Image Retrieval:}{6}%
-\contentsline {section}{\numberline {1}Content Based Image Retrieval(CBIR):}{7}%
-\contentsline {subsection}{\numberline {1.1}Low-Level Image Feature:}{7}%
-\contentsline {subsection}{\numberline {1.2} Image Segmentation}{7}%
-\contentsline {subsection}{\numberline {1.3} Varias caracter\'isticas de bajo nivel de las im\'agenes:}{8}%
-\contentsline {title}{Evaluación del sistema}{12}%
+\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{5}{chapter.3}%
+\contentsline {subsection}{\numberline {0.1}Text Based Image Retrieval:}{6}{subsection.3.0.1}%
+\contentsline {subsection}{\numberline {0.2}Field Based Image Retrieval:}{6}{subsection.3.0.2}%
+\contentsline {subsection}{\numberline {0.3}Structure Based Image Retrieval:}{6}{subsection.3.0.3}%
+\contentsline {section}{\numberline {1}Content Based Image Retrieval(CBIR):}{7}{section.3.1}%
+\contentsline {subsection}{\numberline {1.1}Low-Level Image Feature:}{7}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {1.2} Image Segmentation}{7}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {1.3} Varias caracter\'isticas de bajo nivel de las im\'agenes:}{8}{subsection.3.1.3}%
+\contentsline {title}{Evaluación del sistema}{12}{chapter.4}%
 \authcount {1}
-\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{12}%
-\contentsline {title}{Aplicaciones}{13}%
+\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{12}{chapter.4}%
+\contentsline {title}{Aplicaciones}{14}{chapter.5}%
 \authcount {1}
-\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{13}%
-\contentsline {title}{Ventajas y desventajas}{15}%
+\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{14}{chapter.5}%
+\contentsline {title}{Ventajas y desventajas}{16}{chapter.6}%
 \authcount {1}
-\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{15}%
+\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{16}{chapter.6}%
