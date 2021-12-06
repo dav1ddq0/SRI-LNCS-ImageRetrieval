@@ -1,5 +1,13 @@
 \documentclass{llncs}
 
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
 \usepackage{makeidx}  
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -56,8 +64,6 @@
 
 \maketitle
 
-
-
 La Recuperación de im\'agenes es el campo que se encarga de buscar y obtener imágenes 
 digitales de una base  de datos. Debido a la cantidad creciente de imágenes digitales 
 alrededor del mundo, desde 1970 este campo ha estado bien activo. Un sistema de 
@@ -105,7 +111,7 @@ de consulta.
 }
 \maketitle
 
-\section*{Keyword Based Image retrieval:}
+\section{Keyword Based Image retrieval:}
 
 En un \textbf{image retrieval system convencional}, los \textbf{keywords} son 
 usados como descriptores para indexar y recuperar una imagen.  Las palabras 
@@ -130,21 +136,17 @@ recuperaci\'on de informaci\'on.
     \includegraphics[scale = .3]{./images/kbir-process.png}
 \end{SCfigure}
 
-
-
-
-
 \subsection{Text Based Image Retrieval:}
 
 Las t\'ecnicas b\'asicas de recuperaci\'on de documentos pueden ser usadas para la recuperaci\'on
 de im\'agenes basadas en metadatos sin modificaci\'on. En un keyword based image
 retrieval, los metadatos que describen las im\'agenes pueden ser categorizados en 2
-partes. Una parte se refiere a las herramientas usadas en el proceso de creaci\'on de la imagen, estilo de
+partes. Una parte se refiere a las herramientas usadas en el proceso de creaci\'on de la imagen, estilo
 de arte de la imagen, artista, precio, y otras propiedades expl\'icitas de la imagen. La otra parte describe
-lo que realmente hay en la imagen, las propiedades imp\'icitas que pueden entenderse al 
+lo que realmente hay en la imagen, las propiedades impl\'icitas que pueden entenderse al 
 percibir la imagen en si. En el contexto actual de la recuperaci\'on, el texto plano anotado en im\'agenes
 responde de manera similar al texto plano en documentos, debido a que ambos contienen texto, lo cual permite
-que sean explotados por las t\'ecnicas convencionales de text-bases information retrieval. La recuperaci\'on de
+que sean explotados por las t\'ecnicas convencionales de text-based information retrieval. La recuperaci\'on de
 informaci\'on basada en texto gen\'erica se realiza de tal manera que inicialmente el usuario reliza una
 consulta(query) que tiene de 1 a m \textbf{keywords}. En los sistemas de recuperaci\'on basados en 
 metadatos(metadata based information retrieval), el buscador compara los keywords con un conjunto de im\'agenes 
@@ -158,14 +160,14 @@ a trav\'es de los resultados de b\'usqueda.
 Field based retrieval es una extensi\'on del text based retrieval donde solo un campo(field) es usado en anotaci\'on 
 y recuperaci\'on. El enfoque basado en el campo (field based) describe y recupera art\'iculos usando uno o m\'as pares de valores 
 del campo. Regularmente un esquema de metadatos es descrito por un conjunto de campos y pocas indicaciones sobre el tipo de
-valores que puede ser elegidos por un campo  particular. La plantilla (template) de metadatos y esquemas ampliamaneta utilizada para 
+valores que pueden ser elegidos por un campo  particular. La plantilla (template) de metadatos y esquemas ampliamente utilizada para 
 describir documentos online en general es la \textbf{Dublin Core(DC)}. Los campos de la DC version 1.1 son rights, coverage, relation,
 language, source, identifier, format, type, data, contributor, publisher, description, subject, creator y title.  Versiones calificadas de 
 DC han sido creadas para dominions particulares como la decripci\'on de piezas de arte en museos.
 
 \subsection{Structure Based Image Retrieval:}
 
-El paradigma de recuperaci\'on basado en estructuras. En este m\'etodo, se utiliza un enfoque basado enn el campo(field) que principalmente
+El paradigma de recuperaci\'on basado en estructuras. En este m\'etodo, se utiliza un enfoque basado en el campo(field) que principalmente
 utiliza una estructura de parers de valores atributo. Este m\'etodo permite descripciones m\'as complejas implicando relaciones. Por ejemplo,
 una definici\'on de una parte de un auto puede incluir especificaciones de esos componentes. Cada elemento del objeto se puede especificar 
 de nuevo usando varios atributos como la forma, el tama\~{n}o y el material. Los elementos pueden incluso tener elementos ellos mismos, por 
@@ -205,8 +207,8 @@ de la regi\'on, se puede encontrar f\'acilmente la coincidencia entre dos im\'ag
 
 \subsection{ Image Segmentation}
 El proceso autom\'atico de la realizaci\'on de la segmentaci\'on de una imagen es una tarea dif\'icil. Las t\'ecnicas acad\'emicas 
-usadas en la segmentaci\'on de im\'agenes son curva de  difusi\'on de energ\'ia(curve energy diffusion), evoluci\'on(evolution) y particionamiento 
-de grafos(graph paritioning). La mayor\'ia de los m\'etodos pueden ser apropiados solo para im\'agenes que tienen regiones con colores
+usadas en la segmentaci\'on de im\'agenes son curva de difusi\'on de energ\'ia(curve energy diffusion), evoluci\'on(evolution) y particionamiento 
+de grafos(graph partitioning). La mayor\'ia de los m\'etodos pueden ser apropiados solo para im\'agenes que tienen regiones con colores
 similares, como los m\'etodos de direct clustering en el espacio de color. Tales m\'etodos pueden adaptarse para la recuperaci\'on de sistemas 
 que funcionen con colores. Pero las escenas naturales contienen tanto colores como texturas. Aplicar segmentaci\'on en texturas resulta 
 dif\'icil. Incluso en la segmentaci\'on basada en texturas la estimaci\'on del par\'ametro del modelo de textura es dif\'icil. Para 
@@ -214,7 +216,7 @@ superar esto el algoritmo 'JSEG' es usado. Otro algoritmo llamado segmentaci\'on
 de segmentaci\'on hacen uso de segmentaci\'on basada en color, en textura o en ambas. Estos algoritmos usan k-means para prop\'ositos de 
 clasificaci\'on. Los bloques de una misma clase se agrupan dentro de una misma regi\'on. El algoritmo k-means con restricci\'on de 
 conectividad (KMCC) es un trabajo de segmentaci\'on para segmentar objetos en las im\'agenes. Esta utilizaci\'on del algoritmo  se basa 
-en la confianza en la necesidad del sistema y el uso del conjunto de datos. Es dif\'icil determinar que algoritmo proporciona mejores 
+en la confianza, en la necesidad del sistema y el uso del conjunto de datos. Es dif\'icil determinar que algoritmo proporciona mejores 
 resultados. El resultado del JSEG es la textura y el color de regiones similares, pero el resultado de KMCC produce objetos que son diferentes.
 El algoritmo KMCC es computacionalmente mucho m\'as exhaustivo que el JSEG. Por tanto, Blobworld y JSEG son principalmente los algoritmos usados.
 
@@ -222,9 +224,9 @@ El algoritmo KMCC es computacionalmente mucho m\'as exhaustivo que el JSEG. Por 
 
 En las diversas categor\'ias de algoritmos muy pocos se pueden aplicar en la recuperaci\'on de im\'agenes en tiempo real con 
 sem\'antica de alto nivel que son:\\
-$\blacksquare$  \textbf{Color:}\\
-El color es la m\'as com\'un de la caracter\'isticas adoptadas en la recuperaci\'on de im\'agenes. Varios espacios de color son usados 
-para definir colores . Esos espacios de color son usados en dependiendo de las diferentes aplicaciones. Los espacios de color 
+
+$\blacksquare$  \textbf{Color:} El color es la m\'as com\'un de la caracter\'isticas adoptadas en la recuperaci\'on de im\'agenes. Varios espacios de color son usados 
+para definir colores. Esos espacios de color son usados en dependiendo de las diferentes aplicaciones. Los espacios de color 
 m\'as usados son  RGB, LAB, LUV, HSV (HSL), YCrCb, y el hue-min-max-difference (HMMD). La covarianza del color, el histograma 
 de color, y los momentos de color(color moments) son principalmente las caracter\'isticas de color usadas en RBIR(Region Based Image Retrieval).
  El color principal (leading color), el color escalable(scalable color)y el dise\~{n}o de color(color layout) son las caracter\'isticas 
@@ -244,7 +246,8 @@ de im\'agenes, ya que define el contexto de muchas im\'agenes del mundo real com
 de aplicar \textbf{la transformada de Wavelet}    o \textbf{el filtrado de Gabor}, medidas estad\'isticas confinadas asi como las
 seis caracter\'istcas de textura de Samura, son las caracter\'isticas de textura m\'as utilizadas en el proceso de recuperaci\'on de 
 im\'agenenes.  Las caracter\'istica de textura de Samura son:\\
-$\blacktriangleright $ La regularidad\\
+
+\noindent$\blacktriangleright $ La regularidad\\
 $\blacktriangleright $ Semejanza de l\'inea\\
 $\blacktriangleright $ La rugosidad\\
 $\blacktriangleright $ La direccionalidad\\
@@ -262,31 +265,31 @@ de escenas naturales. El estudio de la visi\'on humana puede coincidir bastante 
 parte de la recuperaci\'on de im\'agenes. Pero el dise\~{n}o actual del filtro de Gabor y la transformada de Wavelet solo est\'a 
 destinado a im\'agenes rectangulares. Pero en un RBIR la regi\'on  de la imagen tiene formas err\'aticas. Por tanto en tal caso las 
 caracter\'isticas de la textura se utilizan eficazmente. Pero para la representaci\'on de im\'agenes naturales el descriptor de histogramas
-de borde (EHD) es el m\'as adecuado y eficaz.
+de borde (EHD) es el m\'as adecuado y eficaz.\\
 
 $\blacksquare$  \textbf{Forma:}
 Uno de los conceptos m\'as distintivos es la forma. Esta caracter\'istica tiene un l\'imite consecutivo de segmentos, una relaci\'on 
 de aspecto, descriptores de Fourier, circularidad e invariantes de momento. El color y la textura son m\'as \'utiles en im\'agenes 
-particulares de dominio , como objetos artificiales. A\'un asi las caracter\'isticas de la forma son caracter\'isticas esenciales 
-pero no tienen tanta popularidad los RBIR como las caracter\'isticas de textura y color para explorar los beneficios inherentes de RBIR,
+particulares de dominio, como objetos artificiales. A\'un asi las caracter\'isticas de la forma son caracter\'isticas esenciales 
+pero no tienen tanta popularidad en los RBIR como las caracter\'isticas de textura y color para explorar los beneficios inherentes de RBIR,
 algunos sistemas podrían utilizar las características de forma como evaluadores. Por ejemplo, las características de orientación 
-y excentricidad se utilizan para este propósito. La forma de una imagen puede definir la configuraci\'on de superficie  caracter\'isticas 
+y excentricidad se utilizan para este propósito. La forma de una imagen puede definir la configuraci\'on de la superficie, caracter\'isticas
 de un objeto, un contorno. Esto permite distinguir a un objeto de su entorno por su contorno. La representaci\'on de la forma puede 
 generalmente dividirse en dos categor\'ias: basado en los l\'imites y basados en regiones. La representaci\'on de la forma basada en los 
 bordes solo usa los bordes exteriores de la forma. Esto se hace describiendo la regi\'on considerada usando sus caracter\'isticas externas,
 como los pixeles a lo largo del l\'imite del objeto. Pero la representaci\'on de la forma basada en la regi\'on es totalmente diferente 
 al m\'etodo anterior. Utiliza la regi\'on de forma completa describiendo la regi\'on considerada sus caracter\'isticas internas; es 
-decir los pixeles contenidos en esa regi\'on.
+decir los pixeles contenidos en esa regi\'on.\\
 \\
 $\blacksquare$  \textbf{Localizaci\'on espacial:}
 No solo la textura, el color, o la forma son caracter\'isticas importantes sino tambi\'en la localizaci\'on espacial en la catalogaci\'on 
 de la regi\'on. Por ejemplo una imagen que contenga \'arboles con c\'esped en el suelo podr\'ia tener caracter\'isticas de color y textura 
-similares pero su localizaci\'on espacial ser diferente , normalmente las hojas de los \'arboles aparecen en la parte superior de una imagen,
+similares pero su localizaci\'on espacial ser diferente, normalmente las hojas de los \'arboles aparecen en la parte superior de una imagen,
 mientras que las hojas que caen en la parte inferior. Las ubicaciones espaciales se definen intuitivamente como :\textbf{izquierda(left), derecha(right),
-top(arriba), bottom(abajo)},seg\'un el lugar de la regi\'on en la imagen. El rect\'angulo delimitador m\'inimo (minimum bounding rectangle) y 
+top(arriba), bottom(abajo)}, seg\'un el lugar de la regi\'on en la imagen. El rect\'angulo delimitador m\'inimo (minimum bounding rectangle) y 
 el centroide de la regi\'on se utilizan para encontrar la ubicaci\'on espacial.     
 
-\section*{Semantic Based Image Retrieval:}
+\section{Semantic Based Image Retrieval:}
 
 Ni una, ni la combinación de varias características visuales o de bajo nivel (color, textura, forma, relación espacial) pueden capturar 
 completamente los conceptos de alto nivel de las imágenes. Además, debido a que el rendimiento de la recuperación de imágenes basado en 
@@ -303,7 +306,6 @@ Como podemos ver la recuperación de imágenes basada en la semántica utiliza t
 la extracción de características de bajo nivel utilizada en CBIR y la anotación de imágenes utilizada en el mecanismo basado en 
 palabras claves, para almacenar en la imagen palabras \textbf{keywords} que se obtengan del proceso de conversión de características de 
 bajo nivel a conceptos de alto nivel propio de este nuevo mecanismo.
-
 
 \section*{Ontology Based Image Retrieval:}
 Ontolog\'ia significa una descripci\'on particular de una conceptualizaci\'on. Dise\~{n}a un dominio de manera formal. Con la ayuda 
@@ -349,8 +351,6 @@ sem\'antica entre el hombre y la m\'aquina.
 
 \newpage
 
-
-
 \title{Evaluación del sistema}
 \author{David Orlando De Quesada Oliva, Javier Dom\'inguez}
 \institute{MATCOM, Universidad de La Habana,\\
@@ -365,7 +365,7 @@ recuperación de información. Dos de las Las medidas de evaluación más popula
 $\blacksquare$ Precisión: el porcentaje de imágenes recuperadas que son relevantes para la consulta.\\
 $\blacksquare$ Recobrado: el porcentaje de todas las imágenes relevantes en la base de datos de búsqueda que se recuperan.\\
 
-Es importante tener en cuenta que cuando la consulta en cuestión es una imagen, la relevancia es extremadament subjetiva. 
+Es importante tener en cuenta que cuando la consulta en cuestión es una imagen, la relevancia es extremadamente subjetiva. 
 La investigación sobre recuperación de información ha demostrado que la precisión y el recobrado siguen una relación inversa. 
 La precisión cae mientras que la recobrado aumenta a medida que el número de imágenes recuperadas, a menudo denominadas alcance, 
 aumenta. Por lo tanto, es típico que tengan un valor numérico alto tanto para la precisión como para la recuperación. 
@@ -434,15 +434,34 @@ están diseñadas para diferenciar entre humanos o programas, basados en la resp
 }
 \maketitle
 
+\underline {\bf Keyword Based Image Retrieval}\\
+
+Ventajas:\\
+\noindent$\bullet$ La realizaci\'on de queries mediante texto suele ser m\'as intuitiva y f\'acil para los usuarios.\\
+
 Desventajas:\\
-Keyword Based Image Retrieval:
-En el keyword based image retrieval el contenido de una imagen es mucho m\'as rico de lo que cualquier conjunto de palabras pueda 
-expresar, solo usando texto para describir el contenido de una imagen a menudo causa ambig\"{u}edad e insuficiencia en el rendimiento
-de la b\'usqueda de im\'agenes en una base de datos y el procesamiento de las query de los usuarios. Este problema se debe a la 
-dificultad de especificar t\'erminos y frases exactas al describir el contenido de una imagen.
-\\
-Los sistemas basados en Contend Based Image Retrieval(CBIR) sufren de lo que se denomina brecha sem\'antica. Es una brecha 
-entre la captaci\'on de im\'agenes de alto nivel de una mente humana y la estimaci\'on de im\'agenes de bajo nivel de 
-las computadoras. 
+\noindent$\bullet$ No tiene en cuenta conceptos sem\'anticos.\\
+$\bullet$ Solo usando texto para describir el contenido de una imagen a menudo causa ambig\"{u}edad e insuficiencia en el rendimiento
+de la b\'usqueda de im\'agenes en una base de datos y el procesamiento de las queries de los usuarios.\\
+
+\underline {\bf Content Based Image Retrieval}\\\\
+Ventajas:\\
+
+\noindent$\bullet $ Las queries se pueden realizar utilizando alguna imagen en algunos casos.\\
+$\bullet $ Se computan las caracter\'isticas de bajo nivel para lograr una mayor precisi\'on a la hora de responder a una 
+query.\\
+
+Desventajas:\\
+\noindent$\bullet$ Los sistemas basados esta t\'ecnica sufren de lo que se denomina brecha sem\'antica. Es una brecha 
+entre los complejos conceptos sem\'anticos que puede percibir el ser humano, y que las m\'aquinas no son capaces de
+comprender f\'acilmente.\\
+
+\underline {\bf Semantic Based Image Retrieval}\\\\
+
+Ventajas:\\
+\noindent$\bullet$ Es capaz de utilizando herramientas de machine learning lograr una mayor precisi\'on a la hora de representar conceptos sem\'anticos.\\
+
+Desventajas:\\
+$\bullet$ A pesar de que estos sistemas son mucho mejores que los existentes tiempo atr\'as, a\'un no existen mecanismos lo suficientemente potentes.
 
 \end{document}
