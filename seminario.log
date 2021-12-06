@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.4)  6 DEC 2021 12:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.4)  6 DEC 2021 15:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -562,29 +562,29 @@ Underfull \hbox (badness 2662) in paragraph at lines 311--311
  []
 
 [11 <./images/visual_idea_ontology.png (PNG copy)>] [12 <./images/ontolgy-bases-image-retrieval-process.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 336--341
+Underfull \hbox (badness 10000) in paragraph at lines 340--345
 
  []
 
 [13
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 363--395
+Underfull \hbox (badness 10000) in paragraph at lines 367--399
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--395
+Underfull \hbox (badness 10000) in paragraph at lines 367--399
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--395
+Underfull \hbox (badness 10000) in paragraph at lines 367--399
 
  []
 
 
-Overfull \hbox (21.15373pt too wide) in paragraph at lines 363--395
+Overfull \hbox (21.15373pt too wide) in paragraph at lines 367--399
 \U/msa/m/n/10 ^^D$ \OT1/cmr/m/n/10 Las in-ter-ac-ciones en-tre CBIR y la se-guri-dad de la in-for-maci^^Son ha sido pr^^Sacticamente
  []
 
@@ -594,100 +594,100 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [14
 
 ] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 402--403
+Underfull \hbox (badness 10000) in paragraph at lines 406--407
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--406
+Underfull \hbox (badness 10000) in paragraph at lines 408--410
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--411
+Underfull \hbox (badness 10000) in paragraph at lines 411--415
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--414
+Underfull \hbox (badness 10000) in paragraph at lines 416--418
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--414
+Underfull \hbox (badness 10000) in paragraph at lines 416--418
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--418
+Underfull \hbox (badness 10000) in paragraph at lines 419--422
 
  []
 
 
-Overfull \hbox (4.73807pt too wide) in paragraph at lines 419--423
+Overfull \hbox (4.73807pt too wide) in paragraph at lines 423--427
 \OMS/cmsy/m/n/10 ^^O$ \OT1/cmr/m/n/10 Los sis-temas basa-dos esta t^^Secnica sufren de lo que se de-nom-ina brecha sem^^Santica.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 419--423
+Underfull \hbox (badness 10000) in paragraph at lines 423--427
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--428
+Underfull \hbox (badness 10000) in paragraph at lines 430--432
 
  []
 
 [16
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 479.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 483.
  [17pdfTeX warning (ext4): destination with the same identifier (name{cite.2rab}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.479 \end{document}
+l.483 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier (name{cite.2rab}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.479 \end{document}
+l.483 \end{document}
                     ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 479.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 483.
  (/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 479.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 479.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 483.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 483.
 Package rerunfilecheck Info: File `seminario.out' has not changed.
-(rerunfilecheck)             Checksum: 222BD00CACA17BA36C8622FF2F3DCA6F;600.
+(rerunfilecheck)             Checksum: A49E2C97E339A6162ECED130C5A662C0;602.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 479.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 483.
  ) 
 Here is how much of TeX's memory you used:
  8373 strings out of 481239
- 123944 string characters out of 5920378
+ 123940 string characters out of 5920378
  391810 words of memory out of 5000000
- 23440 multiletter control sequences out of 15000+600000
+ 23439 multiletter control sequences out of 15000+600000
  536675 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,8n,36p,368b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.pdf" (17 pages, 426465 bytes).
+Output written on "/media/dquesada/CrucialMX500Data/School/3ro/Segundo Semestre/SRI/Seminario Investigativo SRI/Seminario-Latex/SRI-LNCS-ImageRetrieval/seminario.pdf" (17 pages, 427294 bytes).
 PDF statistics:
- 200 PDF objects out of 1000 (max. 8388607)
- 165 compressed objects within 2 object streams
- 47 named destinations out of 1000 (max. 500000)
+ 201 PDF objects out of 1000 (max. 8388607)
+ 166 compressed objects within 2 object streams
+ 48 named destinations out of 1000 (max. 500000)
  85 words of extra memory for PDF output out of 10000 (max. 10000000)
 
