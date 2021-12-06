@@ -12,11 +12,11 @@
 \contentsline {subsection}{\numberline {0.3}Structure Based Image Retrieval:}{6}{subsection.3.0.3}%
 \contentsline {section}{\numberline {1}Content Based Image Retrieval(CBIR):}{7}{section.3.1}%
 \contentsline {subsection}{\numberline {1.1}Low-Level Image Feature:}{7}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {1.2} Image Segmentation}{7}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {1.2} Image Segmentation}{8}{subsection.3.1.2}%
 \contentsline {subsection}{\numberline {1.3} Varias caracter\'isticas de bajo nivel de las im\'agenes:}{8}{subsection.3.1.3}%
-\contentsline {title}{Evaluación del sistema}{12}{chapter.4}%
+\contentsline {title}{Evaluación del sistema}{13}{chapter.4}%
 \authcount {1}
-\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{12}{chapter.4}%
+\contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{13}{chapter.4}%
 \contentsline {title}{Aplicaciones}{14}{chapter.5}%
 \authcount {1}
 \contentsline {author}{David Orlando De Quesada Oliva, Javier Dom\'inguez}{14}{chapter.5}%
