@@ -15,7 +15,7 @@
 \usepackage{listings}
 \usepackage{graphicx}
 \usepackage[rightcaption]{sidecap}
-
+\setcounter{tocdepth}{2}
 \usepackage{hyperref}
 
 \begin{document}
@@ -24,8 +24,8 @@
 %
 \title{Recuperación de Información basada en Imágenes (Image Information Retrieval)}
 \author{David Orlando De Quesada Oliva, Javier Dom\'inguez}
-\institute{MATCOM, Universidad de La Habana,\\
-\email{d.quesada2@estudiantes.matcom.uh.cu, j.dominguez@estudiantes.matcom.uh.cu},\\
+\institute{MATCOM, Universidad de La Habana.\\
+\email{d.quesada@estudiantes.matcom.uh.cu, j.dominguez@estudiantes.matcom.uh.cu}\\
 \texttt{}
 }
 \maketitle
@@ -38,7 +38,8 @@
     entre otros. Las ventajas y desventajas de estos m\'etodos y que aplicaciones reales tiene 
     la recuperaci\'on de im\'agenes .
 
-   \keywords{CBIR, content-based image retrieval, keyword-based image retrieval, image retrieval,ontology}
+   \keywords{CBIR, content-based image retrieval, keyword-based image retrieval, 
+   image retrieval,ontology, color, texture, shape}
 \end{abstract}
 
 \tableofcontents
@@ -88,7 +89,7 @@ de consulta.
 \chapter*{Principales m\'etodos para la recuperaci\'on de im\'agenes}
 \addcontentsline{toc}{chapter}{Principales m\'etodos para la recuperaci\'on de im\'agenes}
 
-\section{Keyword Based Image retrieval:}
+\section{Keyword Based Image Retrieval:}
 
 En un \textbf{image retrieval system convencional}, los \textbf{keywords} son 
 usados como descriptores para indexar y recuperar una imagen.  Las palabras 
@@ -160,14 +161,14 @@ lugar de metadatos como etiquetas(tags), palabras clave(keywords), o descripcion
 contenido aqu\'i puede referirse a formas, color, texturas o alg\'un otro detalle que se puede obtener dentro de la propia
 imagen. El motor de búsqueda de imágenes relacionadas con la web se basa en metadatos, por lo que genera una gran cantidad 
 de resultados basura. Por lo tanto CBIR es deseable en este caso. D\'andole palabras clave (keywords) de forma manual a las 
-im\'agenes de b\'usqueda en una larga base de datos puede obtener resultados incorrectos. Adem\'as el proceso es costoso y 
+im\'agenes de b\'usqueda en una larga base de datos se pueden obtener resultados incorrectos. Adem\'as el proceso es costoso y 
 puede que no identifique todas las palabras clave(keywords) que especifican la imagen y, por tanto, es ineficiente. Al 
 proporcionar una buena técnica de indexación basada en el contenido real de las imágenes, se puede recuperar y producir
 resultados precisos.
 \\
 \begin{SCfigure}[0.5]
     \caption{Arquitectura general de un CBIR}
-    \includegraphics[scale = .3]{./images/cbir arquitecture.png}
+    \includegraphics[scale = .4]{./images/cbir arquitecture.png}
 \end{SCfigure}
 
 
@@ -200,11 +201,9 @@ El algoritmo KMCC es computacionalmente mucho m\'as exhaustivo que el JSEG. Por 
 
 \subsection { Varias caracter\'isticas de bajo nivel de las im\'agenes:}
 
-En las diversas categor\'ias de algoritmos muy pocos se pueden aplicar en la recuperaci\'on de im\'agenes en tiempo real con 
-sem\'antica de alto nivel que son:\\
 
 $\blacksquare$  \textbf{Color:} El color es la m\'as com\'un de la caracter\'isticas adoptadas en la recuperaci\'on de im\'agenes. Varios espacios de color son usados 
-para definir colores. Esos espacios de color son usados en dependiendo de las diferentes aplicaciones. Los espacios de color 
+para definir colores. Esos espacios de color son usados en dependencia de las diferentes aplicaciones. Los espacios de color 
 m\'as usados son  RGB, LAB, LUV, HSV (HSL), YCrCb, y el hue-min-max-difference (HMMD). La covarianza del color, el histograma 
 de color, y los momentos de color(color moments) son principalmente las caracter\'isticas de color usadas en RBIR(Region Based Image Retrieval).
  El color principal (leading color), el color escalable(scalable color)y el dise\~{n}o de color(color layout) son las caracter\'isticas 
@@ -459,7 +458,9 @@ Si se define una ontolog\'ia compleja el proceso de anotaci\'on tambi\'en ser\'a
 como la mano experta que decide la ontolog\'ia.
 
 \newpage
-\addcontentsline{toc}{}{Bibliograf\'ia}
+
+\chapter*{}
+\addcontentsline{toc}{chapter}{References}
 \begin{thebibliography}{}
     %
     \bibitem[1]{2clar:eke}
@@ -506,6 +507,7 @@ como la mano experta que decide la ontolog\'ia.
     Image retrieval.Wikipedia.\url{https://en.wikipedia.org/wiki/Image_retrieval}.
     
 \end{thebibliography}
+
 
 
 \end{document}
